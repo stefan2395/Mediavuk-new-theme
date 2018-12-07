@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+q {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+
+.width-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.width-70 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.width-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+
+/****************** START WEBSITE BODY ******************/
+
+.page-structure {
+  position: relative;
+}
+
+/****************** START Header ******************/
+
+header {
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .logo {
+      width: 100px;
+    }
+  }
+}
+
+
+/****************** END START Header ******************/
+
+
+
+
+/****************** START Content ******************/
+
+
+
+/****************** START welcome section ******************/
+.welcome {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    .welcome__text {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        width: 40%;
+        .welcome__text__hello {
+            p { 
+              font-size: 55px;
+            }
+            span {
+              font-size: 25px;
+            }
+        }
+        .welcome__text__to {
+            padding: 25px 0 25px 0;
+            text-transform: uppercase;
+            h2 {
+                letter-spacing: 14px;
+                color: #ccac00;
+            }
+        }
+
+        .welcome__text__mediavuk {
+            background: black;
+            position: relative;
+            text-align: center;
+            padding: 5px 15px 5px 15px;
+            width: 34%;
+            margin-left: 20px;
+            h2 {
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #fff; 
+            }
+
+            .welcome__text__colsuntants {
+                position: absolute;
+                left: 65px;
+                top: 50px;
+                width: 300px;
+                p {
+                    text-transform: uppercase;
+                    color: #ccac00;
+                    letter-spacing: 4px;
+                    font-size: 8px;
+                }
+            }
+        }
+
+        .welcome__text__message {
+            line-height: 30px;
+            padding: 60px 0 30px 0;
+            border-bottom: dotted 4px;
+            width:80%;
+            p {
+                font-size: 14px;
+                letter-spacing: 4px;
+            }
+            span {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+    }
+
+      .welcome__icons {
+        margin-left: 200px;
+        img {
+            width: 500px;
+        }
+    }
+}
+/****************** END: welcome section ******************/
+
+
+
+
+/****************** START slider section ******************/
+
+.slider {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .slider__title {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .slider__owl {
+        .owl-carousel {
+            width: 100%;
+        }
+    }
+}
+
+/****************** END: slider section ******************/
+
+
+
+/****************** END: Content ******************/
+
+/****************** END: WEBSITE BODY ******************/

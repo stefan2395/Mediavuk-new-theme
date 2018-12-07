@@ -1,2 +1,242 @@
+/* line 1, C:/xampp/htdocs/mediavuk/sass/style.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 11, C:/xampp/htdocs/mediavuk/sass/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 14, C:/xampp/htdocs/mediavuk/sass/style.scss */
+body {
+  line-height: 1;
+}
+
+/* line 17, C:/xampp/htdocs/mediavuk/sass/style.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 20, C:/xampp/htdocs/mediavuk/sass/style.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 24, C:/xampp/htdocs/mediavuk/sass/style.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 29, C:/xampp/htdocs/mediavuk/sass/style.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 33, C:/xampp/htdocs/mediavuk/sass/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 37, C:/xampp/htdocs/mediavuk/sass/style.scss */
+h1 {
+  font-size: 32px;
+}
+
+/* line 41, C:/xampp/htdocs/mediavuk/sass/style.scss */
+h2 {
+  font-size: 28px;
+}
+
+/* line 45, C:/xampp/htdocs/mediavuk/sass/style.scss */
+h3 {
+  font-size: 22px;
+}
+
+/* line 50, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.width-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 55, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.width-70 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* line 60, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.width-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* line 66, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+/* line 70, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+/****************** START WEBSITE BODY ******************/
+/* line 77, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure {
+  position: relative;
+}
+
+/****************** START Header ******************/
+/* line 84, C:/xampp/htdocs/mediavuk/sass/style.scss */
+header .header {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 89, C:/xampp/htdocs/mediavuk/sass/style.scss */
+header .header .logo {
+  width: 100px;
+}
+
+/****************** END START Header ******************/
+/****************** START Content ******************/
+/****************** START welcome section ******************/
+/* line 106, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+/* line 111, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 40%;
+}
+
+/* line 117, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__hello p {
+  font-size: 55px;
+}
+
+/* line 120, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__hello span {
+  font-size: 25px;
+}
+
+/* line 124, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__to {
+  padding: 25px 0 25px 0;
+  text-transform: uppercase;
+}
+
+/* line 127, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__to h2 {
+  letter-spacing: 14px;
+  color: #ccac00;
+}
+
+/* line 133, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk {
+  background: black;
+  position: relative;
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  width: 34%;
+  margin-left: 20px;
+}
+
+/* line 140, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk h2 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 146, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk .welcome__text__colsuntants {
+  position: absolute;
+  left: 65px;
+  top: 50px;
+  width: 300px;
+}
+
+/* line 151, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk .welcome__text__colsuntants p {
+  text-transform: uppercase;
+  color: #ccac00;
+  letter-spacing: 4px;
+  font-size: 8px;
+}
+
+/* line 160, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__message {
+  line-height: 30px;
+  padding: 60px 0 30px 0;
+  border-bottom: dotted 4px;
+  width: 80%;
+}
+
+/* line 165, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__message p {
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+/* line 169, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__message span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 177, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__icons {
+  margin-left: 200px;
+}
+
+/* line 179, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__icons img {
+  width: 500px;
+}
+
+/****************** END: welcome section ******************/
+/****************** START slider section ******************/
+/* line 191, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 195, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 200, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .owl-carousel {
+  width: 100%;
+}
+
+/****************** END: slider section ******************/
+/****************** END: Content ******************/
+/****************** END: WEBSITE BODY ******************/
 
 /*# sourceMappingURL=../css/style.map */
