@@ -48,7 +48,7 @@
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%; }
+    width: 80%; }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
@@ -64,10 +64,20 @@
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
-    background: black;
-    color: red;
-    border: none;
-    padding: 5px!important;
+    background: white;
+    border: solid 1px #3A3A3A;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 10px;
+    width: 12px;
+    height: 12px;
+    font: inherit; }
+  .owl-carousel button.owl-dot.active {
+    background: #3A3A3A;
+    border: solid 1px #3A3A3A;
+    width: 19px;
+    height: 19px;
     font: inherit; }
   .owl-carousel.owl-loaded {
     display: block; }

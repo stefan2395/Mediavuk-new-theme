@@ -1,4 +1,6 @@
-/* line 1, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* START variable COLORS */
+/* END: variable COLORS */
+/* line 12, C:/xampp/htdocs/mediavuk/sass/style.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -9,95 +11,191 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 11, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 22, C:/xampp/htdocs/mediavuk/sass/style.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 14, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 25, C:/xampp/htdocs/mediavuk/sass/style.scss */
 body {
   line-height: 1;
+  font-family: 'PT Sans', sans-serif;
 }
 
-/* line 17, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 29, C:/xampp/htdocs/mediavuk/sass/style.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 20, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 32, C:/xampp/htdocs/mediavuk/sass/style.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 24, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 36, C:/xampp/htdocs/mediavuk/sass/style.scss */
 blockquote:before, blockquote:after {
   content: '';
   content: none;
 }
 
-/* line 29, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 41, C:/xampp/htdocs/mediavuk/sass/style.scss */
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 33, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 45, C:/xampp/htdocs/mediavuk/sass/style.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 37, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 49, C:/xampp/htdocs/mediavuk/sass/style.scss */
 h1 {
-  font-size: 32px;
+  font-size: 30px;
+  letter-spacing: 12px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #3A3A3A;
+  line-height: 50px;
 }
 
-/* line 41, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 59, C:/xampp/htdocs/mediavuk/sass/style.scss */
 h2 {
   font-size: 28px;
 }
 
-/* line 45, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 63, C:/xampp/htdocs/mediavuk/sass/style.scss */
 h3 {
   font-size: 22px;
 }
 
-/* line 50, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* WIDTH */
+/* line 70, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.width-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 75, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .width-80 {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 55, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 80, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .width-70 {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 60, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 85, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .width-60 {
   width: 60%;
   margin: 0 auto;
 }
 
-/* line 66, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 91, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.width-1280 {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* END: WIDTH */
+/* MARGINS */
+/* line 102, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .margin-top-50 {
   margin-top: 50px;
 }
 
-/* line 70, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 106, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .margin-top-100 {
   margin-top: 100px;
 }
 
+/* END: MARGINS */
+/* FONT WEIGHT */
+/* line 113, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.fw-600 {
+  font-weight: 600;
+}
+
+/* line 117, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.fw-500 {
+  font-weight: 500;
+}
+
+/* FONT WEIGHT */
+/* line 123, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.sub-title {
+  font-size: 25px;
+  color: #3A3A3A;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+/* line 132, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.description {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
 /****************** START WEBSITE BODY ******************/
-/* line 77, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 143, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .page-structure {
   position: relative;
 }
 
+/* line 145, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure .background-img {
+  position: absolute;
+}
+
+/* line 148, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure .lines1 {
+  top: 23%;
+  right: 2%;
+}
+
+/* line 152, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure .Gelements2 {
+  top: 45%;
+  left: 0;
+}
+
+/* line 156, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure .Dot {
+  top: 11%;
+  right: 35%;
+}
+
+/* line 160, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure .Dot2 {
+  top: 59%;
+  right: 27%;
+}
+
+/* line 164, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure .Dot3 {
+  top: 61%;
+  right: 13%;
+}
+
+/* line 168, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.page-structure .Square {
+  top: 55%;
+  right: 21%;
+}
+
 /****************** START Header ******************/
-/* line 84, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 177, C:/xampp/htdocs/mediavuk/sass/style.scss */
 header .header {
   display: flex;
   justify-content: center;
@@ -105,7 +203,7 @@ header .header {
   padding-bottom: 20px;
 }
 
-/* line 89, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 182, C:/xampp/htdocs/mediavuk/sass/style.scss */
 header .header .logo {
   width: 100px;
 }
@@ -113,7 +211,7 @@ header .header .logo {
 /****************** END START Header ******************/
 /****************** START Content ******************/
 /****************** START welcome section ******************/
-/* line 106, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 199, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome {
   height: 100%;
   display: flex;
@@ -121,122 +219,825 @@ header .header .logo {
   flex-wrap: wrap;
 }
 
-/* line 111, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 204, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome .welcome__text {
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  width: 40%;
+  width: 55%;
 }
 
-/* line 117, C:/xampp/htdocs/mediavuk/sass/style.scss */
-.welcome .welcome__text .welcome__text__hello p {
-  font-size: 55px;
+/* line 210, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__hello .t1 {
+  font-size: 130px;
+  font-weight: 700;
+  color: #3A3A3A;
+  line-height: 48px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
 }
 
-/* line 120, C:/xampp/htdocs/mediavuk/sass/style.scss */
-.welcome .welcome__text .welcome__text__hello span {
-  font-size: 25px;
+/* line 217, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__hello .t1 span {
+  font-size: 48px;
+  font-weight: 700;
+  color: #3A3A3A;
+  padding-bottom: 30px;
 }
 
-/* line 124, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 226, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome .welcome__text .welcome__text__to {
   padding: 25px 0 25px 0;
   text-transform: uppercase;
 }
 
-/* line 127, C:/xampp/htdocs/mediavuk/sass/style.scss */
-.welcome .welcome__text .welcome__text__to h2 {
-  letter-spacing: 14px;
-  color: #ccac00;
+/* line 229, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__to .t2 {
+  font-family: 'Crimson Text', serif;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0;
+  font-size: 42px;
+  letter-spacing: 25px;
+  color: #A99160;
+  font-weight: 600;
 }
 
-/* line 133, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 241, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome .welcome__text .welcome__text__mediavuk {
-  background: black;
+  /*position: relative;*/
+  margin-bottom: 40px;
+}
+
+/* line 244, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
+  background: #3A3A3A;
   position: relative;
   text-align: center;
-  padding: 5px 15px 5px 15px;
-  width: 34%;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
   margin-left: 20px;
 }
 
-/* line 140, C:/xampp/htdocs/mediavuk/sass/style.scss */
-.welcome .welcome__text .welcome__text__mediavuk h2 {
-  letter-spacing: 3px;
-  text-transform: uppercase;
+/* line 254, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .t3 {
+  text-align: center;
+  padding: 0;
+  font-size: 32px;
   color: #fff;
-}
-
-/* line 146, C:/xampp/htdocs/mediavuk/sass/style.scss */
-.welcome .welcome__text .welcome__text__mediavuk .welcome__text__colsuntants {
-  position: absolute;
-  left: 65px;
-  top: 50px;
-  width: 300px;
-}
-
-/* line 151, C:/xampp/htdocs/mediavuk/sass/style.scss */
-.welcome .welcome__text .welcome__text__mediavuk .welcome__text__colsuntants p {
+  letter-spacing: 20px;
   text-transform: uppercase;
-  color: #ccac00;
-  letter-spacing: 4px;
-  font-size: 8px;
+  line-height: 30px;
+  font-weight: bold;
 }
 
-/* line 160, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 264, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
+  position: absolute;
+  left: 160px;
+  bottom: -30px;
+  width: 100%;
+}
+
+/* line 269, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
+  text-transform: uppercase;
+  color: #A99160;
+  letter-spacing: 9px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 281, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome .welcome__text .welcome__text__message {
   line-height: 30px;
-  padding: 60px 0 30px 0;
+  padding: 60px 0 35px 0;
   border-bottom: dotted 4px;
-  width: 80%;
+  width: 100%;
 }
 
-/* line 165, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 286, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome .welcome__text .welcome__text__message p {
-  font-size: 14px;
-  letter-spacing: 4px;
+  font-size: 23px;
+  letter-spacing: 5px;
+  color: #3A3A3A;
+  line-height: 59px;
 }
 
-/* line 169, C:/xampp/htdocs/mediavuk/sass/style.scss */
-.welcome .welcome__text .welcome__text__message span {
-  text-transform: uppercase;
+/* line 291, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.welcome .welcome__text .welcome__text__message p span {
   font-weight: bold;
-  font-size: 16px;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 8px;
 }
 
-/* line 177, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 301, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome .welcome__icons {
-  margin-left: 200px;
+  margin-left: 70px;
 }
 
-/* line 179, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 303, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .welcome .welcome__icons img {
   width: 500px;
 }
 
 /****************** END: welcome section ******************/
+/****************** START Content ******************/
+/****************** START Content ******************/
 /****************** START slider section ******************/
-/* line 191, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* --- START Owl slider dotted ---*/
+/*.button.owl-dot.active {
+    background: black!important;
+    border: none!important;
+    padding: 10px!important;
+}*/
+/* --- END Owl slider dotted ---*/
+/* line 338, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .slider {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-bottom: dotted 4px;
 }
 
-/* line 195, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 344, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .owl-carousel .owl-stage-outer {
+  /*height: 500px!important;*/
+}
+
+/* line 348, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .slider .slider__title {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 199, C:/xampp/htdocs/mediavuk/sass/style.scss */
+/* line 351, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__title h1 {
+  position: relative;
+  display: block;
+}
+
+/* line 354, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__title h1:before {
+  content: '';
+  width: 86px;
+  height: 6px;
+  background: #A99160;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: -25px;
+  right: 0;
+}
+
+/* line 367, C:/xampp/htdocs/mediavuk/sass/style.scss */
 .slider .slider__owl {
   width: 100%;
 }
 
+/* line 369, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl img {
+  width: 80%;
+}
+
+/* line 372, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row {
+  position: relative;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+/* line 376, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: solid 5px #a78f5f;
+  width: 35%;
+  background: #fff;
+  padding: 40px 52px 40px 50px;
+}
+
+/* line 384, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider .window-slider__text {
+  position: relative;
+  width: 75%;
+}
+
+/* line 387, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: -80px;
+  bottom: -15px;
+  transition: 0.2s;
+}
+
+/* line 394, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
+  right: -100px;
+  bottom: -15px;
+  transition: 0.2s;
+}
+
+/* line 400, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider .window-slider__text .identityTxt {
+  font-family: 'Crimson Text', serif;
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  color: #3A3A3A;
+}
+
+/* line 407, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
+  text-transform: uppercase;
+  color: #A99160;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 7px;
+  line-height: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* line 417, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt {
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: #3A3A3A;
+  font-family: 'Crimson Text', serif;
+}
+
+/* line 422, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt span {
+  text-transform: uppercase;
+}
+
+/* line 431, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__all-work {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 100%;
+  text-align: right;
+}
+
+/* line 436, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.slider .slider__all-work a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 7px;
+  text-decoration: none;
+  color: #3A3A3A;
+}
+
 /****************** END: slider section ******************/
+/****************** START services section ******************/
+/* line 455, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__title {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 458, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__title h1 {
+  position: relative;
+  border: solid 5px black;
+  padding: 60px 50px 60px 50px;
+  background: #fff;
+}
+
+/* line 463, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__title h1 .patternContentText {
+  width: 100%;
+  position: absolute;
+  background: url(../img/patternbg.png) repeat;
+  height: 100%;
+  top: 31px;
+  right: -26px;
+  z-index: -1;
+}
+
+/* line 475, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* line 480, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__icons .icons {
+  z-index: 1;
+  width: 33%;
+  text-align: center;
+  transition: 0.2s;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+/* line 488, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__icons .icons .icons-title {
+  margin-top: 60px;
+  position: relative;
+}
+
+/* line 491, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__icons .icons .icons-title:hover::before {
+  content: "";
+  height: 20px;
+  width: 60%;
+  z-index: -1;
+  background-color: #D13335;
+  /* border-radius: 50%; */
+  webkit-border-radius: 50%;
+  position: absolute;
+  left: 75px;
+  /* top: 0; */
+  right: 0;
+  bottom: 5px;
+}
+
+/* line 506, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__icons .icons .icons__hover {
+  /* display: none; */
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  right: 0;
+  transition: 0.2s;
+  bottom: 0;
+  margin: auto;
+}
+
+/* line 517, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.services .services__icons .icons .icons__hover:hover {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: 0.2s;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+/****************** END: services section ******************/
 /****************** END: Content ******************/
+/****************** START service PAGE ******************/
+/****************** START service CONTENT ******************/
+/* START service framework */
+/* line 547, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service-text {
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  line-height: 25px;
+}
+
+/* END: service framework */
+/* line 556, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* line 561, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__header .service__header__title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 565, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__header .service__header__title h1 {
+  width: 30%;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* line 568, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__header .service__header__title h1:before {
+  content: '';
+  width: 86px;
+  height: 6px;
+  background: #A99160;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: -25px;
+  right: 0;
+}
+
+/* line 583, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__description {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/* line 588, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__description .description__text {
+  width: 60%;
+}
+
+/* line 591, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__description .description__box {
+  width: 30%;
+}
+
+/* line 593, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__description .description__box .box {
+  position: relative;
+  border: solid 5px black;
+  padding: 50px 40px 50px 40px;
+  background: #94eae5;
+}
+
+/* line 598, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__description .description__box .box a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 7px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #3A3A3A;
+}
+
+/* line 607, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.service .service__description .description__box .box .patternContentText {
+  width: 100%;
+  position: absolute;
+  background: url(../img/patternbg.png) repeat;
+  height: 100%;
+  top: 31px;
+  right: -26px;
+  z-index: -1;
+}
+
+/****************** END: service CONTENT ******************/
+/****************** END: service PAGE ******************/
+/****************** START footer ******************/
+/* START framework for footer content */
+/* line 631, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.footer-title {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #A99160;
+  padding-bottom: 30px;
+}
+
+/* line 641, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.footer-link {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 33px;
+  transition: 0.2s;
+}
+
+/* line 650, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.footer-link:hover {
+  color: #706449;
+  transition: 0.2s;
+}
+
+/* line 656, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.footer-link-contact {
+  text-decoration: none;
+  color: #959595;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 33px;
+  transition: 0.2s;
+}
+
+/* line 665, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.footer-link-contact:hover {
+  color: #706449;
+  transition: 0.2s;
+}
+
+/* line 669, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.footer-link-contact span {
+  color: #5f5f5f;
+  font-weight: 700;
+}
+
+/* line 675, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.before-f-title {
+  position: relative;
+}
+
+/* line 677, C:/xampp/htdocs/mediavuk/sass/style.scss */
+.before-f-title:before {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #A99160;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: -25px;
+}
+
+/* END: framework for footer content */
+/* START footer content */
+/* line 693, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footer-content {
+  background: url("../img/Footer.jpg") repeat;
+}
+
+/* line 695, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footer-content .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* line 703, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footer-content .footer .footer__logo {
+  align-self: center;
+}
+
+/* line 709, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap {
+  padding: 35px 0 25px 0;
+}
+
+/* line 711, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__Sicons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 714, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__Sicons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+/* line 719, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* line 725, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__footer-menu li {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #A99160;
+}
+
+/* line 732, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__footer-menu li a {
+  text-decoration: none;
+  color: #A99160;
+  letter-spacing: 0.2em;
+}
+
+/* line 739, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__footerTxt {
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #686868;
+  padding: 10px 0 0 0;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+/* line 747, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__footerTxt a {
+  text-decoration: none;
+  color: #686868;
+}
+
+/* line 752, C:/xampp/htdocs/mediavuk/sass/style.scss */
+footer .footerWrap .footerWrap__footerTxt .icon-gold_heart:before {
+  content: "\e935";
+  color: #a99160;
+}
+
+/* line 761, C:/xampp/htdocs/mediavuk/sass/style.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon', sans-serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* END: footer content */
+/****************** END footer ******************/
 /****************** END: WEBSITE BODY ******************/
+/****************** START RESPONSIVE ******************/
+@media only screen and (max-width: 1300px) {
+  /* line 788, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .page-structure .background-img {
+    display: none;
+  }
+  /* START Welcome responsive */
+  /* line 794, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome {
+    justify-content: center;
+  }
+  /* line 796, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text {
+    width: 60%;
+  }
+  /* line 799, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__icons {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  /* line 802, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__icons img {
+    width: 100%;
+  }
+  /* END: Welcome responsive */
+  /* START services responsive */
+  /* line 813, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .services .services__icons .icons {
+    width: 50%;
+  }
+  /* END: services responsive */
+  /* START Footer responsive */
+  /* line 824, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  footer .footerWrap .footerWrap__footer-menu {
+    width: 60%;
+  }
+  /* END: Footer responsive */
+}
+
+@media only screen and (max-width: 830px) {
+  /* START Welcome responsive */
+  /* line 837, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text {
+    width: 85%;
+  }
+  /* line 840, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__to .t2 {
+    font-size: 35px;
+  }
+  /* line 846, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
+    padding: 5px 0px 5px 15px;
+    width: 60%;
+  }
+  /* END: Welcome responsive */
+  /* START services responsive */
+  /* line 863, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .services .services__icons .icons {
+    width: 70%;
+  }
+  /* line 865, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .services .services__icons .icons .sub-title {
+    font-size: 22px;
+    letter-spacing: 6px;
+    line-height: 32px;
+  }
+  /* END: services responsive */
+  /* START Footer responsive */
+  /* line 880, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  footer .footer-content .footer .footer__job-positions, footer .footer-content .footer .footer__logo, footer .footer-content .footer .footer__contact {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+  /* line 886, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  footer .footer-content .footer .before-f-title::before {
+    right: 0;
+  }
+  /* line 893, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  footer .footerWrap .footerWrap__footer-menu {
+    width: 80%;
+  }
+  /* END: Footer responsive */
+}
+
+@media only screen and (max-width: 780px) {
+  /* START Welcome responsive */
+  /* line 907, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
+    width: 80%;
+  }
+  /* line 909, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
+    left: 80px;
+  }
+  /* line 911, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
+    letter-spacing: 7px;
+    font-size: 12px;
+  }
+  /* END: Welcome responsive */
+}
+
+@media only screen and (max-width: 730px) {
+  /* START Footer responsive */
+  /* line 929, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  footer .footerWrap .footerWrap__footer-menu {
+    width: 90%;
+  }
+  /* END: Footer responsive */
+}
+
+@media only screen and (max-width: 570px) {
+  /* START welcome */
+  /* line 945, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__to .t2 {
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  /* END: welcome */
+  /* START Footer responsive */
+  /* line 957, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  footer .footerWrap .footerWrap__footer-menu {
+    justify-content: center;
+  }
+  /* line 959, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  footer .footerWrap .footerWrap__footer-menu li {
+    padding-right: 15px;
+  }
+  /* END: Footer responsive */
+}
+
+@media only screen and (max-width: 425px) {
+  /* line 975, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__hello .t1 {
+    font-size: 115px;
+  }
+  /* line 980, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 983, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* line 998, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 1001, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .t3 {
+    font-size: 25px;
+  }
+  /* line 1004, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
+    left: 0px;
+  }
+  /* line 1006, C:/xampp/htdocs/mediavuk/sass/style.scss */
+  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
+    letter-spacing: 6px;
+    font-size: 10px;
+  }
+}
+
+/****************** END: RESPONSIVE ****************/
 
 /*# sourceMappingURL=../css/style.map */
