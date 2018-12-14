@@ -72,7 +72,9 @@
 			<!-- /////// START slider__title \\\\\\\ -->
 			<div class="slider__owl owl-carousel">
 				<div class="slider-row">
+					
 					<img src="img/Degro_cover.jpg" alt="">
+
 					<div class="window-slider">
 						<div class="window-slider__text">
 							<p class="fw-600 identityTxt">Degro Identity</p>
@@ -85,6 +87,10 @@
 							</span>
 						</div>
 					</div>
+				</div>
+
+				<div class="slider-row">
+					<img src="img/Degro_cover.jpg" alt="">
 				</div>
 
 				<div class="slider-row">
