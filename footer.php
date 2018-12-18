@@ -33,7 +33,7 @@
 								</li>
 
 								<li>
-									<a class="footer-link-contact" href=""><span>EMAIL</span> office[at]mediavuk.com</a>
+									<a class="footer-link-contact" href=""><span>EMAIL</span> office@mediavuk.com</a>
 								</li>
 
 								<li>
@@ -117,8 +117,9 @@
 <script src="js/owl.carousel.min.js"></script>
 
 
-
 <script>
+
+
 	// Change footer image when page refresh
 	function randomImage() {
 		var fileNames = [

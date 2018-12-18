@@ -29,6 +29,7 @@
 						We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.
 					</li>
 				</ul>
+				<div class="dots-border"></div>
 			</div>
 
 
@@ -47,6 +48,7 @@
 						Email: office@mediavuk.com
 					</li>
 				</ul>
+				<div class="dots-border"></div>
 			</div>
 
 
@@ -64,6 +66,7 @@
 						While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally, identifiable information may include, but is not limited to your name (“Personal Information”).
 					</li>
 				</ul>
+				<div class="dots-border"></div>
 			</div>
 
 		</div>

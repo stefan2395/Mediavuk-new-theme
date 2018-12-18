@@ -39,6 +39,7 @@
 
 				<div class="welcome__text__message">
 					<p class="">We're team of <span>media creators</span> bent on<br> creating the most amazing work for our clients.<br> And by work we mean <span>websites, print design,<br> logos,</span> and various adventures in <span>digital applications.</span> </p>
+					<div class="dots-border"></div>
 				</div>
 			</div>
 			<!-- /////// END welcome__text \\\\\\\ -->
@@ -49,7 +50,7 @@
 				<img src="img/Icons_illustration_header.jpg" alt="">
 			</div>
 			<!-- /////// END welcome__icons \\\\\\\ -->
-
+	
 		</div>
 		<!-- ====================== END: welcome CONTAINER ====================== -->
 
@@ -106,6 +107,7 @@
 					<p>view all work</p>
 				</a>
 			</div>
+			<div class="dots-border"></div>
 			<!-- /////// END: slider__all-work \\\\\\\ -->
 		</div>
 		<!-- ====================== END: welcome CONTAINER ====================== -->

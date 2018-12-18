@@ -54,6 +54,7 @@
     display: none; }
   .owl-dots {
     text-align: center;
+    margin-top: 40px;
   }
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next,
@@ -68,19 +69,19 @@
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
     background: white;
-    border: solid 1px #3A3A3A;
+    border: solid 2px #3A3A3A;
     display: inline-block;
     vertical-align: middle;
     padding: 0;
     margin: 10px;
-    width: 12px;
-    height: 12px;
+    width: 9px;
+    height: 9px;
     font: inherit; }
   .owl-carousel button.owl-dot.active {
     background: #3A3A3A;
     border: solid 1px #3A3A3A;
-    width: 19px;
-    height: 19px;
+    width: 16px;
+    height: 16px;
     font: inherit; }
   .owl-carousel.owl-loaded {
     display: block; }

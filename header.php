@@ -13,7 +13,8 @@
 		<link rel="stylesheet" href="css/owl.theme.default.css">
 		
 		<!-- FONT -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i%7CCrimson+Text:400,400i,600,600i,700,700i" media="all">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|PT+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+		
 		<link rel="stylesheet" type="text/css" href="https://cdn.iconmonstr.com/1.0.0/css/iconmonstr-iconic-font.min.css">
 
 		<!-- font awesome -->

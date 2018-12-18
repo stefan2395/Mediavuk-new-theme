@@ -126,8 +126,9 @@
 
 			</div>
 			<!-- /////// END: service__content \\\\\\\ -->
-
+		<div class="dots-border"></div>
 		</div>
+
 	</div>
 	<!-- ====================== END: service CONTENT-PAGE ====================== -->
 
