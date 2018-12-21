@@ -7,6 +7,7 @@ $lightgray: #959595;
 $menuColor: #e4e4e4;
 $menuServices: #B9B9B9;
 $menuColorBg: #171717;
+$serviceTxt: #404040;
 
 /* END: variable COLORS */
 
@@ -126,12 +127,30 @@ h3 {
     margin-top: 50px;
 }
 
+.margin-top-75 {
+    margin-top: 75px;
+}
+
+.margin-top-90 {
+    margin-top: 90px;
+}
+
 .margin-top-100 {
     margin-top: 100px;
 }
 
+
+.margin-bottom-65 {
+    margin-bottom: 65px;
+}
+
 .margin-bottom-100 {
     margin-bottom: 100px;
+}
+
+
+.margin-bottom-120 {
+    margin-bottom: 120px;
 }
 /* END: MARGINS */
 
@@ -151,7 +170,6 @@ h3 {
     font-size: 25px;
     color: $darkgray;
     font-weight: 600;
-    letter-spacing: 10px;
     text-transform: uppercase;
 }
 
@@ -232,7 +250,7 @@ header {
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 100px;
-        padding-top: 200px;
+        padding-top: 100px;
         ul {
             width: 360px;
         }
@@ -246,19 +264,24 @@ header {
                     text-decoration: none;
                     color: $menuColor;
                     line-height: 87px;
+                    transition: 0.5s;
+                    &:hover {
+                        border-bottom: solid $gold 2px;
+                        transition: 0.5s;
+                    }
                 }
             }
         }
         .menu__services, .menu__contact {
+            .menu__title {
+                color: $gold;
+                font-size: 26px;
+                font-style: italic;
+                font-family: 'Crimson Text', serif;
+                letter-spacing: 0.07em;
+            }
             li {
                 line-height: 73px;
-                &:nth-child(1) {
-                    color: $gold;
-                    font-size: 26px;
-                    font-style: italic;
-                    font-family: 'Crimson Text', serif;
-                    letter-spacing: 0.07em;
-                }
             }
             a, p {
                 text-decoration: none;
@@ -601,8 +624,9 @@ header {
             border: solid 5px black;
             padding: 40px 50px 40px 50px;
             background: #fff;
-            .patternContentText {
+            &:before {
                 width: 99%;
+                content: '';
                 position: absolute;
                 background: url(../img/patternbg.png) repeat;
                 height: 97%;
@@ -628,9 +652,29 @@ header {
             margin-bottom: 70px;
             .icons-title {
                 margin-top: 60px;
+                p { 
+                    display: inline-block;
+                    position: relative;
+                    margin-right: -6px;
+                    padding-left: 10px;
+                    letter-spacing: 10px;
+                    line-height: 41px;
+                    &:before {
+                        background-color: red;
+                        opacity: 0;
+                        position: absolute;
+                        content: '';
+                        bottom: 0;
+                        z-index: -1;
+                        left: 0;
+                        margin: auto;
+                        transition: 2s;
+                        right: 0;
+                    }
+                    
+                }
             }
             .icons__hover {
-                /* display: none; */
                 opacity: 0;
                 position: absolute;
                 top: 0;
@@ -640,7 +684,10 @@ header {
                 transition: 0.2s;
                 bottom: 0;
                 margin: auto;
-                &:hover {
+            }
+            
+            &:hover {
+                .icons__hover {
                     opacity: 1;
                     position: absolute;
                     top: 0;
@@ -650,6 +697,70 @@ header {
                     transition: 0.2s;
                     padding-bottom: 10px;
                     color: #fff;
+                }
+                .icons-title {
+                    position: relative;
+                    p {
+                        &:before {
+                            opacity: 1;
+                            height: 50%;
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+            &:nth-child(1) {
+                .icons-title {
+                    p {
+                        &:before {
+                            background-color:#33ccff;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .icons-title {
+                    p {
+                        &:before {
+                            background-color:#c16efe;
+                        }
+                    }
+                }
+            }
+            &:nth-child(3) {
+                .icons-title {
+                    p {
+                        &:before {
+                            background-color:#00f6c5;
+                        }
+                    }
+                }
+            }
+            &:nth-child(4) {
+                .icons-title {
+                    p {
+                        &:before {
+                            background-color:#e5e541;
+                        }
+                    }
+                }
+            }
+            &:nth-child(5) {
+                .icons-title {
+                    p {
+                        &:before {
+                            background-color:#ffa97d;
+                        }
+                    }
+                }
+            }
+            &:nth-child(6) {
+                .icons-title {
+                    p {
+                        &:before {
+                            background-color:#ff74a1;
+                        }
+                    }
                 }
             }
         }
@@ -670,13 +781,7 @@ header {
 /****************** START service CONTENT ******************/
 
 /* START service framework */
-.service-text {
-    font-family: 'Crimson Text', serif;
-    font-size: 16px;
-    text-decoration: none;
-    color: #333;
-    line-height: 25px;
-}
+
 
 .service-title {
     position: relative;
@@ -695,12 +800,12 @@ header {
 .service-button {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 7px;
+    font-size: 18px;
+    letter-spacing: 0.4em;
     text-decoration: none;
     color: #3A3A3A;
     border: solid 3px black;
-    padding: 10px 40px 10px 40px;
+    padding: 15px 48px 15px 48px;
     background: #94eae5;
 }
 
@@ -725,8 +830,13 @@ header {
                 display: flex;
                 justify-content: center;
                 h1 {
-                    width: 30%;
-                    position: relative;margin-bottom: 40px;
+                    width: 40%;
+                    position: relative;
+                    margin-bottom: 50px;
+                    margin-top: 115px;
+                    line-height: 70px;
+                    font-size: 45px;
+                    letter-spacing: 0.4em;
                     &:before {
                         content: '';
                         width: 86px;
@@ -735,7 +845,7 @@ header {
                         position: absolute;
                         margin: auto;
                         left: 0;
-                        top: -25px;
+                        top: -39px;
                         right: 0;
                     }
                 }
@@ -748,24 +858,38 @@ header {
             flex-wrap: wrap;
             .description__text {
                 width: 60%;
+                p {
+                    font-family: 'Crimson Text', serif;
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: $serviceTxt;
+                    letter-spacing: 0.01em;
+                    line-height: 30px;
+                }
             }
             .description__box {
                 width: 30%;
                 .box {
                     position: relative;
-                    border: solid 5px black;
+                    border: solid 5px $darkgray;
                     padding: 40px 30px 40px 30px;
                     background: #94eae5;
+                    .a-last {
+                        padding: 0;
+                    }
                     a {
                         text-transform: uppercase;
                         font-weight: bold;
-                        font-size: 20px;
+                        font-size: 18px;
                         letter-spacing: 5px;
                         line-height: 30px;
                         text-decoration: none;
                         color: #3A3A3A;
+                        display: inline-block;
+                        padding-bottom: 10px;
                     }
-                    .patternContentText {
+                    &:before {
+                        content: '';
                         width: 100%;
                         position: absolute;
                         background: url(../img/patternbg.png) repeat;
@@ -789,15 +913,25 @@ header {
                 display: flex;
                 flex-wrap: wrap;
                 .reputation__title {
-                    width: 39%;
+                    width: 36%;
                     h1 {
                         margin-bottom: 35px;
+                        margin-top: 25px;
                     }
                 }
                 .reputation__text-button {
-                    width: 60%;
+                    width: 62%;
+                    p {
+                        font-family: 'Crimson Text', serif;
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: $serviceTxt;
+                        line-height: 30px;
+                        padding-top: 31px;
+                        letter-spacing: 0.01em;
+                    }
                     .text-button {
-                        margin-top: 40px;
+                        margin-top: 50px;
                     }
                 }
                 .reputation__img {
@@ -866,7 +1000,7 @@ header {
                 }
             }
             .pp__text__txt {
-                li {
+                p {
                     line-height: 25px;
                     letter-spacing: 0.05em;
                     color: #333;
@@ -1046,7 +1180,7 @@ footer {
 /****************** START RESPONSIVE ******************/
 @media only screen and (max-width: 1600px) {
     .menu-content {
-        padding: 30px;
+        padding: 30px 100px;
     }
 }
 
@@ -1085,6 +1219,21 @@ footer {
     }
     /* END: services responsive */
 
+    .service-content {
+        .service {
+            .service__description {
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                .description__text {
+                    width: 100%;
+                }
+                .description__box {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
 
      /* START Footer responsive */
     footer {
@@ -1115,6 +1264,16 @@ footer {
                     .reputation__img, .reputation__title, .reputation__text-button {
                         width: auto;
                     }
+                    .reputation__title {
+                        h1 {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .reputation__text-button {
+                        p {
+                            padding-top: 15px;
+                        }
+                    }
                 }
             }
         }
@@ -1122,13 +1281,31 @@ footer {
 }
 
 
+@media only screen and (max-width: 1175px) {
+   .service-content {
+        .service {
+            .service__description {
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                .description__text {
+                    width: 100%;
+                }
+                .description__box {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1036px) {
     .service-content {
         .service {
             .service__description {
                 justify-content: center;
-               .description__text, .description__box {
-                    width: auto;
+                .description__box {
+                   width: 38%;
                }
                .description__box {
                     margin-top: 50px;
@@ -1180,6 +1357,19 @@ footer {
     /* END: Slider responsive */
 }
 
+@media only screen and (max-width: 930px) {
+    .service-content {
+        .service {
+            .service__description {
+                .description__box {
+                   width: 40%;
+               }
+            }
+        }
+    }
+}
+
+
 @media only screen and (max-width: 830px) {
 
     /* START Welcome responsive */
@@ -1200,6 +1390,7 @@ footer {
             } 
             .welcome__text__message {
                 padding: 40px 0 35px 0;
+                width: 100%;
                 p {
                     line-height: 45px;
                     text-align: center;
@@ -1216,7 +1407,7 @@ footer {
     .services {
         .services__icons {
             .icons {
-                width: 70%;
+                width: 100%;
                 .sub-title {
                     font-size: 22px;
                     letter-spacing: 6px;
@@ -1267,21 +1458,18 @@ footer {
         transition: 0.4s;
     }
 
-        .active, .accordion:hover {
-    }
+    
 
-        .accordion:after {
-            content: '\002B';
-            position: absolute;
-            color: $menuColor;
-            font-weight: bold;
-            right: 40px;
+    .accordion:after {
+        content: '\002B';
+        position: absolute;
+        color: $menuColor;
+        font-weight: bold;
+        right: 40px;
     }
-
-        .active:after {
-            content: "\2212";
+    .active-acc:after {
+        content: "\2212";
     }
-
         .panel {
             background-color: unset;
             max-height: 0;
@@ -1310,21 +1498,21 @@ footer {
                } 
             }
             .menu__services, .menu__contact {
+                .menu__title {
+                    font-family: 'PT Sans', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 22px;
+                    letter-spacing: 0.32em;
+                    text-decoration: none;
+                    color: $menuColor;
+                    line-height: 70px;
+                    font-style: normal;
+                }
                 li {
                     line-height: 50px;
                     
                     p, a {
                         font-size: 16px;
-                    }
-                    &:nth-child(1) {
-                        font-family: 'PT Sans', sans-serif;
-                        text-transform: uppercase;
-                        font-size: 22px;
-                        letter-spacing: 0.32em;
-                        text-decoration: none;
-                        color: $menuColor;
-                        line-height: 70px;
-                        font-style: normal;
                     }
                 }
                 .menu-social {
@@ -1362,6 +1550,25 @@ footer {
     }
     /* END: Welcome responsive */
 
+
+    .service-content {
+        .service {
+            .service__description {
+                .description__box {
+                   width: 54%;
+               }
+            }
+        }
+        .reputation {
+            .reputation__text-button {
+                .text-button {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            } 
+        }
+    }
 
 }
 
@@ -1430,7 +1637,17 @@ footer {
 }
 
 
-
+@media only screen and (max-width: 600px) {
+    .service-content {
+        .service {
+            .service__description {
+                .description__box {
+                   width: 75%;
+               }
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 570px) {
 
@@ -1524,6 +1741,16 @@ footer {
     }
     /* END: Slider responsive */
 
+    .service-content {
+        .service {
+            .service__description {
+                .description__box {
+                   width: 95%;
+               }
+            }
+        }
+    }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -1564,7 +1791,7 @@ footer {
         .reputation {
             .reputation__title {
                 h1 {
-                    font-size: 20px;
+                    font-size: 25px;
                     line-height: 40px;
                     margin-bottom: 30px;
                 }
@@ -1594,6 +1821,26 @@ footer {
                         p {
                             letter-spacing: 6px;
                             font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .slider {
+        .slider__owl {
+            .slider-row { 
+                .window-slider {
+                    bottom: 15px;
+                    left: 0;
+                    .window-slider__text {
+                        .arrow-slider {
+                            right: 10px;
+                            &:hover {
+                                right:5px;
+                            }
                         }
                     }
                 }

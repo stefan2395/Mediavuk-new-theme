@@ -132,9 +132,10 @@
 					<div class="icons__hover">
 						<img src="img/icons/Web-design_icon_color.svg" alt="">
 					</div>
-					<div>
-						<p class="sub-title icons-title">web design
-						</p>
+					<div class="sub-title icons-title">
+						<p>web</p>
+						<p>design</p>
+						
 					</div>
 				</div>
 
@@ -143,8 +144,9 @@
 					<div class="icons__hover">
 						<img src="img/icons/Graphic-design_icon_color.svg" alt="">
 					</div>
-					<div>
-						<p class="sub-title icons-title">Graphic design</p>
+					<div class="sub-title icons-title">
+						<p>Graphic</p>
+						<p>design</p>
 					</div>
 				</div>
 
@@ -153,8 +155,8 @@
 					<div class="icons__hover">
 						<img src="img/icons/UX-UI_icon_color.svg" alt="">
 					</div>
-					<div>
-						<p class="sub-title icons-title">ux/ui</p>
+					<div class="sub-title icons-title">
+						<p>ux/ui</p>
 					</div>
 				</div>
 
@@ -163,8 +165,8 @@
 					<div class="icons__hover">
 						<img src="img/icons/Wordpress_icon_color.svg" alt="">
 					</div>
-					<div>
-						<p class="sub-title icons-title">Wordpress</p>
+					<div class="sub-title icons-title">
+						<p>Wordpress</p>
 					</div>
 				</div>
 
@@ -173,8 +175,8 @@
 					<div class="icons__hover">
 						<img src="img/icons/Nearshore_icon_color.svg" alt="">
 					</div>
-					<div>
-						<p class="sub-title icons-title">nearshoring</p>
+					<div class="sub-title icons-title">
+						<p>nearshoring</p>
 					</div>
 				</div>
 
@@ -184,8 +186,9 @@
 					<div class="icons__hover">
 						<img src="img/icons/Internet-marketing_icon_color.svg" alt="">
 					</div>
-					<div>
-						<p class="sub-title icons-title">internet marketing</p>
+					<div class="sub-title icons-title">
+						<p>internet</p>
+						<p>marketing</p>
 					</div>
 				</div>
 

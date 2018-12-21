@@ -42,7 +42,7 @@
 
 
         		<ul class="menu__services">
-        			<li class="accordion">Services</li>
+        			<li class="accordion menu__title">Services</li>
                     <div class="panel">
             			<li>
             				<a href="">Web design</a>
@@ -72,7 +72,7 @@
 
 
         		<ul class="menu__contact">
-        			<li class="accordion">Contact</li>
+        			<li class="accordion menu__title">Contact</li>
 
                     <div class="panel">
             			<li>
@@ -145,7 +145,7 @@
 
     for (i = 0; i < acc.length; i++) {
       acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
+        this.classList.toggle("active-acc");
         var panel = this.nextElementSibling;
         if (panel.style.maxHeight){
           panel.style.maxHeight = null;

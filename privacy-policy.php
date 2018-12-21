@@ -20,15 +20,15 @@
 					</li>
 				</ul>
 
-				<ul class="pp__text__txt">
-					<li>
+				<div class="pp__text__txt">
+					<p>
 						Mediavuk (“us”, “we”, or “our”) operates https://mediavuk.com/ (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.
-					</li>
+					</p>
 
-					<li>
+					<p>
 						We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.
-					</li>
-				</ul>
+					</p>
+				</div>
 				<div class="dots-border"></div>
 			</div>
 
