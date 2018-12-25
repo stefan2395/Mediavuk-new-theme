@@ -5,7 +5,7 @@
         <meta name="viewport" content="initial-scale=1.0,width=device-width">
         
         <title></title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-new.css">
         <!-- <script src="js/main.js"></script> -->
 
         <!-- START owl courasel -->
@@ -27,7 +27,7 @@
 		<!-- =============================================================================
 		 								Page Structure
 	 	=============================================================================-->
-    	<div class="page-structure">
+    	<div class="page-structure pageBody" id="page-structure">
 	   	 	<!-- =============================================================================
 			 									Header
 		 	=============================================================================-->

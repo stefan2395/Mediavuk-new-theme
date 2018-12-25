@@ -53,13 +53,13 @@ table {
   border-spacing: 0; }
 
 h1 {
-    font-size: 28px;
+    font-size: 28px!important;
     letter-spacing: 12px;
     margin-bottom: 100px;
     text-transform: uppercase;
     font-weight: 600;
     color: $darkgray;
-    line-height: 50px;
+    line-height: 50px!important;
 }
 
 h2 {
@@ -193,7 +193,7 @@ h3 {
 /****************** START WEBSITE BODY ******************/
 
 
-.page-structure {
+.pageBody {
     position: relative;
     overflow: hidden;
     .background-img {
@@ -224,6 +224,34 @@ h3 {
         top: 55%;
         right: 17%;
     }
+
+
+    /* service page dots */
+    .service-lines {
+        top: 5%;
+        left: -24%;
+    }
+
+    .service-dots {
+        top: 3%;
+        right: -16%;
+    }
+
+    .service-lines2 {
+        top: 10%;
+        right: -17%;
+    }
+
+    .service-lines3 {
+        top: 65%;
+        right: -22%;
+    }
+
+    .service-lines4 {
+        top: 55%;
+        left: -22%;
+    }
+    /* END: service page dots */
 }
 
 /****************** START Header ******************/
@@ -257,6 +285,11 @@ header {
         .menu__links {
             li {
                 a {
+
+                    transition: all .2s ease-out;
+                    border-bottom: solid transparent 4px;
+                    position: relative;
+
                     font-family: 'PT Sans', sans-serif;
                     text-transform: uppercase;
                     font-size: 28px;
@@ -264,11 +297,21 @@ header {
                     text-decoration: none;
                     color: $menuColor;
                     line-height: 87px;
-                    transition: 0.5s;
-                    &:hover {
-                        border-bottom: solid $gold 2px;
+                    &:hover .slider {
                         transition: 0.5s;
+                        width: 100%;
                     }
+                }
+                .slider {
+                    position: absolute;
+                    display:block;
+                    left: 0;
+                    top: 100%;
+                    margin:0 auto;
+                    height: 2px;
+                    background-color: $gold;
+                    width: 0%;
+                    transition: width 1s ease;
                 }
             }
         }
@@ -595,6 +638,8 @@ header {
         margin-bottom: 30px;
         margin-top: 60px;
         width: 100%;
+        display: flex;
+        justify-content: flex-end;
         text-align: right;
         a {
             text-transform: uppercase;
@@ -603,6 +648,13 @@ header {
             letter-spacing: 0.4em;
             text-decoration: none;
             color: $darkgray;
+            padding: 10px 30px;
+            transition: 0.4s;
+            &:hover {
+                background-color: $gold;
+                color: #fff;
+                transition: 0.4s;
+            }
         }
     }
 }
@@ -614,7 +666,7 @@ header {
 
 /****************** START services section ******************/
 
-.services {
+.services-new {
     .services__title {
         display: flex;
         justify-content: center;
@@ -781,6 +833,7 @@ header {
 /****************** START service CONTENT ******************/
 
 /* START service framework */
+
 
 
 .service-title {
@@ -990,21 +1043,31 @@ header {
             .pp__text__title {
                 padding-left: 25px;
                 margin-bottom: 35px;
+                margin-top: 35px;
                 li {
-                    font-size: 30px;
-                    font-family: 'Crimson Text', serif;
+                    font-size: 28px;
                     color: $gold;
                     font-weight: bold;
                     letter-spacing: 3px;
                     list-style: disc;
+                    text-transform: uppercase;
                 }
             }
             .pp__text__txt {
-                p {
+                p, li {
+                    font-family: 'Crimson Text', serif;
                     line-height: 25px;
                     letter-spacing: 0.05em;
                     color: #333;
                     margin-bottom: 35px;
+                }
+                ul {
+                    li {
+                        list-style: disc;
+                        line-height: 30px;
+                        margin-bottom: 20px;
+                        margin-left: 20px;
+                    }
                 }
             }
         }
@@ -1210,7 +1273,7 @@ footer {
 
 
     /* START services responsive */
-    .services {
+    .services-new {
         .services__icons {
             .icons {
                 width: 50%;
@@ -1404,7 +1467,7 @@ footer {
 
 
     /* START services responsive */
-    .services {
+    .services-new {
         .services__icons {
             .icons {
                 width: 100%;
@@ -1693,7 +1756,7 @@ footer {
     .margin-top-100 {
         margin-top: 70px;
     }
-    .services {
+    .services-new {
         .services__title {
             width: 85%;
             margin: 0 auto;

@@ -2,12 +2,24 @@
 
 
 	<!-- ====================== START absolute dots ====================== -->
-	<span class="background-img lines1"><img src="img/background-dots/Lines_1.png" alt=""></span>
-	<span class="background-img Gelements2"><img src="img/background-dots/Graphic-elements_2.png" alt=""></span>
-	<span class="background-img Dot"><img src="img/background-dots/Dot.png" alt=""></span>
-	<span class="background-img Dot2"><img src="img/background-dots/Dot_2.png" alt=""></span>
-	<span class="background-img Dot3"><img src="img/background-dots/Dot_3.png" alt=""></span>
-	<span class="background-img Square"><img src="img/background-dots/Square.png" alt=""></span>
+	<span class="background-img lines1">
+		<img src="img/background-dots/Lines_1.png" alt="">
+	</span>
+	<span class="background-img Gelements2">
+		<img src="img/background-dots/Graphic-elements_2.png" alt="">
+	</span>
+	<span class="background-img Dot">
+		<img src="img/background-dots/Dot.png" alt="">
+	</span>
+	<span class="background-img Dot2">
+		<img src="img/background-dots/Dot_2.png" alt="">
+	</span>
+	<span class="background-img Dot3">
+		<img src="img/background-dots/Dot_3.png" alt="">
+	</span>
+	<span class="background-img Square">
+		<img src="img/background-dots/Square.png" alt="">
+	</span>
 	<!-- ====================== END: absolute dots ====================== -->
 
 
@@ -115,7 +127,7 @@
 
 
 		<!-- ====================== START services CONTAINER ====================== -->
-		<div class="services margin-top-100">
+		<div class="services-new margin-top-100">
 			<div class="services__title">
 				<h1>Our services
 					<div class="patternContentText"></div>

@@ -69,121 +69,142 @@
  	=============================================================================-->
 	<div class="content width-90">
 
-		
-		<!-- ====================== END: welcome CONTAINER ====================== -->
-		<div class="slider margin-top-100 width-1280">
-			
-			<!-- /////// START slider__title \\\\\\\ -->
-			<div class="slider__title">
-				<h1><?php the_field('slider_title'); ?>recent work</h1>
-			</div>
-			<!-- /////// END slider__title \\\\\\\ -->
-			
+		<?php
 
-			<?php if( have_rows('slider_repeater') ): ?>
-			<!-- /////// START slider__title \\\\\\\ -->
-				<div class="slider__owl owl-carousel">
+		// check if the flexible content field has rows of data
+		if( have_rows('front_page') ):
 
-					<?php while( have_rows('slider_repeater') ): the_row(); 
+			// loop through the rows of data
+			while ( have_rows('front_page') ) : the_row();
 
-					// vars
-					$sliderImg 	= get_sub_field('slider_img');
-					$sliderText = get_sub_field('slider_text'); 
-					$itemLink 	= get_sub_field('slider_item_link');
-					?>
-						<div class="slider-row">
-							
-							<img src="<?php echo $sliderImg['url']; ?>" alt="<?php echo $sliderImg['alt']; ?>">
+				if( get_row_layout() == 'recent_work' ): ?>
 
-							<div class="window-slider">
+					<!-- ====================== END: welcome CONTAINER ====================== -->
+					<div class="slider margin-top-100 width-1280">
 
-								<div class="window-slider__text">
-									<?php echo $sliderText; ?>
+						<!-- /////// START slider__title \\\\\\\ -->
+						<div class="slider__title">
+							<h1><?php the_field('slider_title'); ?></h1>
+						</div>
+						<!-- /////// END slider__title \\\\\\\ -->
 
-									<p class="fw-600 identityTxt">Degro Identity</p>
-									<p class="brandingTxt">branding the next partner</p>
-									<p class="clientTxt">Client: <span class="fw-600">DEGRO</span></p>
-									<span class="arrow-slider">
-										<a href="<?php echo $itemLink; ?>">
-											<img src="<?php bloginfo('template_directory'); ?>/img/arrow.svg" alt="arrow">
-										</a>
-									</span>
-								</div>
+						<?php if( have_rows('slider_repeater') ): ?>
+						<!-- /////// START slider__title \\\\\\\ -->
+							<div class="slider__owl owl-carousel">
+
+								<?php while( have_rows('slider_repeater') ): the_row(); 
+
+								// vars
+								$sliderImg 		= get_sub_field('slider_img');
+								$clientName 	= get_sub_field('client_name');
+								$sliderText 	= get_sub_field('slider_text'); 
+								$itemLink 		= get_sub_field('slider_item_link');
+
+								?>
+									<div class="slider-row">
+										
+										<img src="<?php echo $sliderImg['url']; ?>" alt="<?php echo $sliderImg['alt']; ?>">
+
+										<div class="window-slider">
+
+											<div class="window-slider__text">
+												
+												<p class="fw-600 identityTxt"><?php echo $clientName; ?></p>
+												<p class="brandingTxt"><?php echo $sliderText; ?></p>
+												<!-- <p class="clientTxt">Client: <span class="fw-600">DEGRO</span></p> -->
+												<span class="arrow-slider">
+													<a href="<?php echo $itemLink; ?>">
+														<img src="<?php bloginfo('template_directory'); ?>/img/arrow.svg" alt="arrow">
+													</a>
+												</span>
+											</div>
+										</div>
+									</div><!-- END: slider-row -->
+
+								<?php endwhile; ?>
+
 							</div>
+
+						<?php endif; ?>
+						<!-- /////// END: slider__title \\\\\\\ -->
+						
+
+						<!-- /////// START slider__all-work \\\\\\\ -->
+						<div class="slider__all-work">
+							<a href="<?php the_sub_field('portfolio_link'); ?>">
+								<p><?php the_sub_field('portfolio_page_text'); ?></p>
+							</a>
+						</div>
+						<div class="dots-border"></div>
+						<!-- /////// END: slider__all-work \\\\\\\ -->
+
+					</div>
+					<!-- ====================== END: welcome CONTAINER ====================== -->
+
+
+
+				<?php elseif( get_row_layout() == 'our_services' ): ?>
+
+					<!-- ====================== START services CONTAINER ====================== -->
+					<div class="services-new margin-top-100">
+
+						<div class="services__title">
+							<h1><?php the_field('section_title'); ?></h1>
 						</div>
 
-					<?php endwhile; ?>
-				</div>
-			<?php endif; ?>
-			<!-- /////// END: slider__title \\\\\\\ -->
-			
+						<?php if( have_rows('services_repeater') ): ?>
 
-			<!-- /////// START slider__all-work \\\\\\\ -->
-			<div class="slider__all-work">
-				<a href="<?php the_sub_field('portfolio_link'); ?>">
-					<p><?php the_sub_field('portfolio_page_text'); ?>view all work</p>
-				</a>
-			</div>
-			<div class="dots-border"></div>
-			<!-- /////// END: slider__all-work \\\\\\\ -->
-		</div>
-		<!-- ====================== END: welcome CONTAINER ====================== -->
+							<!-- /////// START Icons Block \\\\\\\ -->
+							<div class="services__icons width-80">
 
+								<?php while( have_rows('services_repeater') ): the_row(); 
 
+								// vars
+								$serviceIcon 		= get_sub_field('service_icon');
+								$serviceIconHover 	= get_sub_field('service_icon_hover');	
 
+								?>
 
-		<!-- ====================== START services CONTAINER ====================== -->
-		<div class="services margin-top-100">
-			<div class="services__title">
-				<h1><?php the_field('section_title'); ?>Our services</h1>
-			</div>
+								<div class="icons web-icon">
+									<img src="<?php echo $serviceIcon['url']; ?>" alt="<?php echo $serviceIcon['alt']; ?>">
+									<div class="icons__hover">
+										<img src="<?php echo $serviceIconHover['url']; ?>" alt="<?php echo $serviceIconHover['alt']; ?>">
+									</div>
 
+									<?php if( have_rows('service_title_repeater') ): ?>
 
-		<?php if( have_rows('services_repeater') ): ?>
+										<div class="sub-title icons-title">
 
-			<!-- /////// START icons \\\\\\\ -->
-			<div class="services__icons width-80">
+											<?php while( have_rows('service_title_repeater') ): the_row(); 
+											// vars
+											$serviceTitle = get_sub_field('service_title');
 
-				<?php while( have_rows('services_repeater') ): the_row(); 
+											?>
+												<p><?php echo $serviceTitle; ?></p> 	
 
-				// vars
-				$serviceIcon 		= get_sub_field('service_icon');
-				$serviceIconHover 	= get_sub_field('service_icon_hover');	
+											<?php endwhile; ?>
+										</div>
+									<?php endif; ?>					
 
-				?>
+								</div><!-- END icons -->
+							
+								<?php endwhile; ?>
+							</div>
+							<!-- /////// END Icons Block \\\\\\\ -->
+						<?php endif; ?>
 
-				<div class="icons web-icon">
-					<img src="<?php echo $serviceIcon['url']; ?>" alt="<?php echo $serviceIcon['alt']; ?>">
-					<div class="icons__hover">
-						<img src="<?php echo $serviceIconHover['url']; ?>" alt="<?php echo $serviceIconHover['alt']; ?>">
 					</div>
 
-					<?php if( have_rows('service_title_repeater') ): ?>
-
-						<div class="sub-title icons-title">
-							
-							<?php while( have_rows('service_title_repeater') ): the_row(); 
-							// vars
-							$serviceTitle = get_sub_field('service_title');
-
-							?>
-								<p><?php echo $serviceTitle; ?></p> 	
-
-							<?php endwhile; ?>
-						</div>
-					<?php endif; ?>					
-
-				</div>
-
+					<?php endif; ?>
 				<?php endwhile; ?>
-			</div>
-			<!-- /////// END icons \\\\\\\ -->
-		<?php endif; ?>
+			<?php endif; ?>
+
 			
-		</div>
+		
 		<!-- ====================== END: services CONTAINER ====================== -->
 
-	</div>
+	</div><!-- END content -->
+
 	<!-- =============================================================================
 	 								END: Page Content
  	=============================================================================-->

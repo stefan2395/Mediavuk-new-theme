@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title></title>
          <meta name="viewport" content="initial-scale=1.0,width=device-width">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-new.css">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|PT+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
         <!-- <script src="js/main.js"></script> -->
     </head>
@@ -16,27 +16,40 @@
 
         		<ul class="menu__links">
         			<li>
-        				<a href="">home</a>
+        				<a href="">home
+                            <span class="slider"></span>  
+                        </a>
+
         			</li>
 
         			<li>
-        				<a href="">about us</a>
+        				<a href="">about us
+                            <span class="slider"></span>
+                        </a>
         			</li>
 
         			<li>
-        				<a href="">blog</a>
+        				<a href="">blog
+                            <span class="slider"></span>
+                        </a>
         			</li>
 
         			<li>
-        				<a href="">portfolio</a>
+        				<a href="">portfolio
+                            <span class="slider"></span>
+                        </a>
         			</li>
 
         			<li>
-        				<a href="">jobs</a>
+        				<a href="">jobs
+                            <span class="slider"></span>
+                        </a>
         			</li>
 
         			<li>
-        				<a href="">clients</a>
+        				<a href="">clients
+                            <span class="slider"></span>
+                        </a>
         			</li>
         		</ul>
 

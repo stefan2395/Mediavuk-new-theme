@@ -13,11 +13,11 @@
 			<!-- /////// START service__header \\\\\\\ -->
 			<div class="service__header">
 				<div class="service__header__title">
-					<h1><?php the_field('services_title'); ?>internet marketing</h1>
+					<h1><?php the_title(); ?></h1>
 				</div>
 
 				<div>
-					<img src="<?php the_field('services_img'); ?>" alt="">
+					<img src="<?php the_field('services_icon'); ?>" alt="">
 				</div>
 			</div>
 			<!-- /////// END: service__header \\\\\\\ -->
@@ -30,8 +30,7 @@
 					<?php while( have_rows('services_description') ): the_row(); 
 					// vars
 					$descriptionText 	= get_sub_field('description_text');
-					$sliderText 		= get_sub_field('slider_text'); 
-					$itemLink 			= get_sub_field('slider_item_link');
+					
 					?>
 
 					<div class="description__text">
@@ -49,7 +48,7 @@
 								?>
 
 								<div class="box">
-									<a href="<?php echo $linkPage; ?>"><?php echo $boxText; ?>social media & </a> 
+									<a href="<?php echo $linkPage; ?>"><?php echo $boxText; ?></a> 
 								</div>
 								<?php endwhile; ?>
 							</div>
@@ -69,6 +68,7 @@
 					<?php while( have_rows('services_content') ): the_row(); 
 
 					// vars
+					$imagePositon                   = get_sub_field('image_position');
 					$servicesDescImg 				= get_sub_field('services_desc_img');
 					$servicesDescTitle 				= get_sub_field('services_desc_title'); 
 					$servicesDescText 				= get_sub_field('services_desc_text');
@@ -76,11 +76,10 @@
 					$servicesDescReadMoreTxtLink	= get_sub_field('services_desc_read_more_text_link');
 
 					?>
-						<div class="reputation margin-bottom-100 service-flex-end">
 
-							<div class="reputation__img margin-bottom-100">
-									<img src="<?php echo $servicesDescImg['url']; ?>" alt="<?php echo $servicesDescImg['alt']; ?>">
-							</div> 
+					<div class="reputation margin-bottom-100 <?php echo $imagePositon; ?>">
+
+						<?php if( get_row_layout() == 'services_inf' ):  ?>
 
 							<div class="reputation__title">
 								<h1 class="service-title"><?php echo $servicesDescTitle; ?>social media & reputation</h1>
@@ -90,13 +89,23 @@
 									<?php echo $servicesDescText; ?>  
 								<div class="text-button">
 									<a class="service-button" href="<?php echo $servicesDescReadMoreTxtLink; ?>">
-										<?php echo $servicesDescReadMoreTxt; ?>read more
+										<?php echo $servicesDescReadMoreTxt; ?>
 									</a>
 								</div>
 
 								
 							</div>
-						</div>
+
+					
+						<?php elseif( get_row_layout() == 'services_img' ): ?>
+
+							<div class="reputation__img margin-bottom-100">
+									<img src="<?php echo $servicesDescImg['url']; ?>" alt="<?php echo $servicesDescImg['alt']; ?>">
+							</div> 
+
+					 	<?php endif; //flexible content layouts ?> 
+
+					</div><!-- END: reputation -->
 					<?php endwhile; ?>
 				</div>
 				<!-- /////// END: service__content \\\\\\\ -->

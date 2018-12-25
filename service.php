@@ -1,5 +1,31 @@
 <?php include 'header.php'; ?>
 
+	<!-- ====================== START absolute dots ====================== -->
+	<span class="background-img service-lines">
+		<img src="img/1.png" alt="">
+	</span>
+
+	<span class="background-img service-dots">
+		<img src="img/Vector-Smart-Object.png" alt="">
+	</span>
+
+	<span class="background-img service-lines2">
+		<img src="img/crtice-copy-3.png" alt="">
+	</span>
+
+	<span class="background-img service-lines3">
+		<img src="img/crtice-copy-4.png" alt="">
+	</span>
+
+	<span class="background-img service-lines4">
+		<img src="img/crtice-copy-2.png" alt="">
+	</span>
+	<!-- ====================== END: absolute dots ====================== -->
+
+
+
+
+
 	<!-- ====================== START service CONTENT-PAGE ====================== -->
 
 	<div class="service-content">
@@ -11,7 +37,7 @@
 				</div>
 
 				<div>
-					<img src="img/icons/Internet-marketing_icon.svg" alt="">
+					<img src="img/icons/Internet-marketing_icon_color.svg" alt="">
 				</div>
 			</div>
 			<!-- /////// END: service__header \\\\\\\ -->
@@ -47,7 +73,7 @@
 				<div class="reputation margin-bottom-120 service-flex-start">
 
 					<div class="reputation__img margin-bottom-65">
-							<img src="img/2.jpg" alt="">
+							<img src="img/service-img/Services_img-1.jpg" alt="">
 					</div> 
 
 					<div class="reputation__title">
