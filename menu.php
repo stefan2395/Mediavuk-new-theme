@@ -17,38 +17,38 @@
         		<ul class="menu__links">
         			<li>
         				<a href="">home
-                            <span class="slider"></span>  
+                            <span class="border-slider"></span>  
                         </a>
 
         			</li>
 
         			<li>
         				<a href="">about us
-                            <span class="slider"></span>
+                            <span class="border-slider"></span>
                         </a>
         			</li>
 
         			<li>
         				<a href="">blog
-                            <span class="slider"></span>
+                            <span class="border-slider"></span>
                         </a>
         			</li>
 
         			<li>
         				<a href="">portfolio
-                            <span class="slider"></span>
+                            <span class="border-slider"></span>
                         </a>
         			</li>
 
         			<li>
         				<a href="">jobs
-                            <span class="slider"></span>
+                            <span class="border-slider"></span>
                         </a>
         			</li>
 
         			<li>
         				<a href="">clients
-                            <span class="slider"></span>
+                            <span class="border-slider"></span>
                         </a>
         			</li>
         		</ul>
@@ -58,27 +58,39 @@
         			<li class="accordion menu__title">Services</li>
                     <div class="panel">
             			<li>
-            				<a href="">Web design</a>
+            				<a href="">Web design
+                                <span class="border-slider"></span>
+                            </a>
             			</li>
 
             			<li>
-            				<a href="">Graphic design</a>
+            				<a href="">Graphic design
+                                <span class="border-slider"></span>
+                            </a>
             			</li>
 
             			<li>
-            				<a href="">UX/UI Design</a>
+            				<a href="">UX/UI Design
+                                <span class="border-slider"></span>
+                            </a>
             			</li>
 
             			<li>
-            				<a href="">Wordpress</a>
+            				<a href="">Wordpress
+                                <span class="border-slider"></span>
+                            </a>
             			</li>
 
             			<li>
-            				<a href="">Nearshoring</a>
+            				<a href="">Nearshoring
+                                <span class="border-slider"></span>
+                            </a>
             			</li>
 
             			<li>
-            				<a href="">Internet Marketing</a>
+            				<a href="">Internet Marketing
+                                <span class="border-slider"></span>
+                            </a>
             			</li>
                     </div>
         		</ul>

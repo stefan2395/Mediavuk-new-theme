@@ -285,11 +285,6 @@ header {
         .menu__links {
             li {
                 a {
-
-                    transition: all .2s ease-out;
-                    border-bottom: solid transparent 4px;
-                    position: relative;
-
                     font-family: 'PT Sans', sans-serif;
                     text-transform: uppercase;
                     font-size: 28px;
@@ -297,24 +292,35 @@ header {
                     text-decoration: none;
                     color: $menuColor;
                     line-height: 87px;
-                    &:hover .slider {
-                        transition: 0.5s;
-                        width: 100%;
-                    }
                 }
-                .slider {
-                    position: absolute;
-                    display:block;
-                    left: 0;
-                    top: 100%;
-                    margin:0 auto;
-                    height: 2px;
-                    background-color: $gold;
-                    width: 0%;
-                    transition: width 1s ease;
-                }
+                
             }
         }
+        .menu__links, .panel {
+                li {
+                    a, p {
+                        transition: all .2s ease-out;
+                        border-bottom: solid transparent 4px;
+                        position: relative;
+
+                        &:hover .border-slider {
+                            transition: 0.5s;
+                            width: 100%;
+                        }
+                    }
+                    .border-slider {
+                        position: absolute;
+                        display:block;
+                        left: 0;
+                        top: 100%;
+                        margin:0 auto;
+                        height: 2px;
+                        background-color: $gold;
+                        width: 0%;
+                        transition: width 1s ease;
+                    }
+                }
+            }
         .menu__services, .menu__contact {
             .menu__title {
                 color: $gold;
