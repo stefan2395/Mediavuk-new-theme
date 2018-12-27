@@ -590,7 +590,7 @@ header {
                 bottom: 0;
                 right: 0;
                 border: solid 5px #a78f5f;
-                width: 312px;
+                width: 400px;
                 background: #fff;
                 padding: 40px 52px 40px 50px;
                 .window-slider__text {
@@ -865,7 +865,6 @@ header {
     color: #3A3A3A;
     border: solid 3px black;
     padding: 15px 48px 15px 48px;
-    background: #94eae5;
 }
 
 .service-flex-start {
@@ -932,7 +931,6 @@ header {
                     position: relative;
                     border: solid 5px $darkgray;
                     padding: 40px 30px 40px 30px;
-                    background: #94eae5;
                     .a-last {
                         padding: 0;
                     }
@@ -1000,6 +998,17 @@ header {
                     }
                 }
             } 
+        }
+        .service-paragraph {
+            p {
+                font-family: 'Crimson Text', serif;
+                font-size: 18px;
+                text-decoration: none;
+                color: $serviceTxt;
+                line-height: 30px;
+                padding-top: 31px;
+                letter-spacing: 0.01em;
+            }
         }
     }
 }
@@ -1153,7 +1162,7 @@ header {
 
 
 /* START footer content */
-footer {
+/* footer {
     margin-top: 80px;
     .footer-content { 
         background: url('../img/Footer.jpg') repeat;
@@ -1233,7 +1242,7 @@ footer {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 /* END: footer content */
 
