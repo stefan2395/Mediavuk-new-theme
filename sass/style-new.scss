@@ -416,7 +416,7 @@ header {
         flex-direction: column;
         width: 55%;
         .welcome__text__hello {
-            .t1 { 
+            .txt1 { 
                 font-size: 130px;
                 font-weight: 700;
                 color: $darkgray;
@@ -435,7 +435,7 @@ header {
         .welcome__text__to {
             padding: 25px 0 25px 0;
             text-transform: uppercase;
-            .t2 {
+            .txt2 {
                 font-family: 'Crimson Text', serif; 
                 text-transform: uppercase;
                 text-align: left;
@@ -460,7 +460,7 @@ header {
                 align-items: center;
                 width: 412px;
                 margin-left: 20px;
-                .t3 {
+                .txt3 {
                     text-align: center;
                     padding: 0;
                     font-size: 30px;
@@ -1455,7 +1455,7 @@ header {
         .welcome__text {
             width: 85%;
             .welcome__text__to {
-                .t2 {
+                .txt2 {
                     font-size: 35px;
                 }
             }
@@ -1733,7 +1733,7 @@ header {
     .welcome {
         .welcome__text {
             .welcome__text__to {
-                .t2 {
+                .txt2 {
                     font-size: 25px;
                     letter-spacing: 10px;
                 }
@@ -1836,14 +1836,14 @@ header {
         text-align: center;
         .welcome__text {
             .welcome__text__hello {
-                .t1 {
+                .txt1 {
                     font-size: 110px;
                     line-height: 60px;
                     margin-bottom:  10px;
                 }
             }
             .welcome__text__to {
-                .t2 {
+                .txt2 {
                     text-align: center;
                 }   
             }
@@ -1852,7 +1852,7 @@ header {
                     width: 100%;
                     padding: 0px 0px 0px 15px;
                     margin-left: 0;
-                    .t3 {
+                    .txt3 {
                         font-size: 25px;
                     }
                     .welcome__text__colsuntants {
@@ -1891,7 +1891,7 @@ header {
                 .welcome__text__mediavuk-t3 {
                     width: 100%;
                     margin-left: 0;
-                    .t3 {
+                    .txt3 {
                         font-size: 25px;
                     }
                     .welcome__text__colsuntants {

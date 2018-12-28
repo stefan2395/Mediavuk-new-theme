@@ -32,15 +32,15 @@
 			<!-- /////// START welcome__text \\\\\\\ -->
 			<div class="welcome__text">
 				<div class="welcome__text__hello">
-					<p class="t1">Hello, <span>there!</span></p>
+					<p class="txt1">Hello, <span>there!</span></p>
 				</div>
 				<div class="welcome__text__to">
-					<p class="t2">Welcome to</p>	
+					<p class="txt2">Welcome to</p>	
 				</div>
 
 				<div class="welcome__text__mediavuk">
 					<div class="welcome__text__mediavuk-t3">
-						<p class="t3">Mediavuk</p>
+						<p class="txt3">Mediavuk</p>
 
 						<div class="welcome__text__colsuntants">
 							<p>/ the media consultants /</p>

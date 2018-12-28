@@ -24,27 +24,27 @@
 
 				<?php the_field('welcome_message1'); ?>
 
-				<div class="welcome__text__hello">
-					<p class="t1">Hello, <span>there!</span></p>
+				<!-- <div class="welcome__text__hello">
+					<p class="txt1">Hello, <span>there!</span></p>
 				</div>
 				<div class="welcome__text__to">
-					<p class="t2">Welcome to</p>	
+					<p class="txt2">Welcome to</p>	
 				</div>
 
 				<div class="welcome__text__mediavuk">
 					<div class="welcome__text__mediavuk-t3">
-						<p class="t3">Mediavuk</p>
+						<p class="txt3">Mediavuk</p>
 
 						<div class="welcome__text__colsuntants">
 							<p>/ the media consultants /</p>
 						</div>
 					</div>
 					
-				</div>
+				</div> -->
 
 				<div class="welcome__text__message">
 					<?php the_field('welcome_message2'); ?>
-					<p class="">We're team of <span>media creators</span> bent on<br> creating the most amazing work for our clients.<br> And by work we mean <span>websites, print design,<br> logos,</span> and various adventures in <span>digital applications.</span> </p>
+					<!-- <p class="">We're team of <span>media creators</span> bent on<br> creating the most amazing work for our clients.<br> And by work we mean <span>websites, print design,<br> logos,</span> and various adventures in <span>digital applications.</span> </p> -->
 					<div class="dots-border"></div>
 				</div>
 			</div>
@@ -84,7 +84,7 @@
 
 						<!-- /////// START slider__title \\\\\\\ -->
 						<div class="slider__title">
-							<h1><?php the_field('slider_title'); ?></h1>
+							<h1><?php the_sub_field('slider_title'); ?></h1>
 						</div>
 						<!-- /////// END slider__title \\\\\\\ -->
 
