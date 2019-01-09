@@ -1,6 +1,76 @@
 /* START variable COLORS */
 /* END: variable COLORS */
-<<<<<<< HEAD
+/* line 13, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 26, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+body {
+  line-height: 1;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* line 30, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 33, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 46, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 50, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+h1 {
+  font-size: 28px !important;
+  letter-spacing: 12px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #3A3A3A;
+  line-height: 50px !important;
+}
+
+/* line 60, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+h2 {
+  font-size: 28px;
+}
+
+/* line 64, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+h3 {
+  font-size: 22px;
+}
+
 /* START FLEX box mixin */
 /*  Flexbox display */
 /* 
@@ -67,395 +137,218 @@ auto | flex-start | flex-end | center | baseline | stretch
 /* END: FLEX box mixin */
 /* TRANSITION box mixin */
 /* END: TRANSITION box mixin */
-/* line 236, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-<<<<<<< HEAD
-/* line 246, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-<<<<<<< HEAD
-/* line 249, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-body {
-  line-height: 1;
-  font-family: 'PT Sans', sans-serif; }
-
-<<<<<<< HEAD
-/* line 253, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-ol, ul {
-  list-style: none; }
-
-<<<<<<< HEAD
-/* line 256, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-blockquote, q {
-  quotes: none; }
-
-<<<<<<< HEAD
-/* line 260, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
-
-<<<<<<< HEAD
-/* line 265, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-q:before, q:after {
-  content: '';
-  content: none; }
-
-<<<<<<< HEAD
-/* line 269, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-<<<<<<< HEAD
-/* line 273, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-h1 {
-  font-size: 28px !important;
-  letter-spacing: 12px;
-  margin-bottom: 100px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #3A3A3A;
-  line-height: 50px !important; }
-
-<<<<<<< HEAD
-/* line 283, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-h2 {
-  font-size: 28px; }
-
-<<<<<<< HEAD
-/* line 287, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-h3 {
-  font-size: 22px; }
-
 /* WIDTH */
-<<<<<<< HEAD
-/* line 294, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 259, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-90 {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-<<<<<<< HEAD
-/* line 299, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 264, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-80 {
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-<<<<<<< HEAD
-/* line 304, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 269, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-70 {
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-<<<<<<< HEAD
-/* line 309, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 274, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-60 {
   width: 60%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-<<<<<<< HEAD
-/* line 314, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 279, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-1600 {
   max-width: 1600px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-<<<<<<< HEAD
-/* line 321, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 286, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-1280 {
   max-width: 1280px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-<<<<<<< HEAD
-/* line 327, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 292, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-1160 {
   max-width: 1160px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-<<<<<<< HEAD
-/* line 333, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 298, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .width-980 {
   max-width: 980px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 /* END: WIDTH */
 /* MARGINS */
-<<<<<<< HEAD
-/* line 344, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 309, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .margin-top-50 {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
-<<<<<<< HEAD
-/* line 348, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 313, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .margin-top-75 {
-  margin-top: 75px; }
+  margin-top: 75px;
+}
 
-<<<<<<< HEAD
-/* line 352, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 317, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .margin-top-90 {
-  margin-top: 90px; }
+  margin-top: 90px;
+}
 
-<<<<<<< HEAD
-/* line 356, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 321, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .margin-top-100 {
-  margin-top: 100px; }
+  margin-top: 100px;
+}
 
-<<<<<<< HEAD
-/* line 361, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 326, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .margin-bottom-65 {
-  margin-bottom: 65px; }
+  margin-bottom: 65px;
+}
 
-<<<<<<< HEAD
-/* line 365, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 330, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .margin-bottom-100 {
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+}
 
-<<<<<<< HEAD
-/* line 370, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 335, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .margin-bottom-120 {
-  margin-bottom: 120px; }
+  margin-bottom: 120px;
+}
 
 /* END: MARGINS */
 /* FONT WEIGHT */
-<<<<<<< HEAD
-/* line 377, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 342, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .fw-600 {
-  font-weight: 600; }
+  font-weight: 600;
+}
 
-<<<<<<< HEAD
-/* line 381, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 346, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .fw-500 {
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 /* FONT WEIGHT */
-<<<<<<< HEAD
-/* line 387, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 352, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .sub-title {
   font-size: 25px;
   color: #3A3A3A;
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
-<<<<<<< HEAD
-/* line 395, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 360, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .description {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
   text-decoration: none;
   color: #333;
   text-transform: capitalize;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
-<<<<<<< HEAD
-/* line 404, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 369, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .dots-border {
   background-image: url(../img/border2.png);
   background-repeat: repeat;
   width: 100%;
-  height: 5px; }
+  height: 5px;
+}
 
 /****************** START WEBSITE BODY ******************/
-<<<<<<< HEAD
-/* line 414, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 379, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody {
   position: relative;
   overflow: hidden;
   /* service page dots */
-<<<<<<< HEAD
   /* END: service page dots */
 }
 
-/* line 417, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 382, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .background-img {
   position: absolute;
   z-index: -1;
 }
 
-/* line 421, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 386, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .lines1 {
   top: 21%;
   right: 2%;
 }
 
-/* line 425, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 390, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .Gelements2 {
   top: 45%;
   left: 0;
 }
 
-/* line 429, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 394, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .Dot {
   top: 11%;
   right: 30%;
 }
 
-/* line 433, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 398, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .Dot2 {
   top: 60%;
   right: 24%;
 }
 
-/* line 437, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 402, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .Dot3 {
   top: 61%;
   right: 9%;
 }
 
-/* line 441, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 406, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .Square {
   top: 57%;
   right: 17%;
 }
 
-/* line 448, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 413, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .service-lines {
   top: 5%;
   left: -24%;
 }
 
-/* line 453, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 418, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .service-dots {
   top: 3%;
   right: -16%;
 }
 
-/* line 458, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 423, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .service-lines2 {
   top: 10%;
   right: -17%;
 }
 
-/* line 463, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 428, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .service-lines3 {
   top: 65%;
   right: -22%;
 }
 
-/* line 468, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 433, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pageBody .service-lines4 {
   top: 55%;
   left: -22%;
 }
 
 /****************** START Header ******************/
-/* line 478, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  /* END: service page dots */ }
-  .pageBody .background-img {
-    position: absolute;
-    z-index: -1; }
-  .pageBody .lines1 {
-    top: 21%;
-    right: 2%; }
-  .pageBody .Gelements2 {
-    top: 45%;
-    left: 0; }
-  .pageBody .Dot {
-    top: 11%;
-    right: 30%; }
-  .pageBody .Dot2 {
-    top: 59%;
-    right: 24%; }
-  .pageBody .Dot3 {
-    top: 61%;
-    right: 9%; }
-  .pageBody .Square {
-    top: 55%;
-    right: 17%; }
-  .pageBody .service-lines {
-    top: 5%;
-    left: -24%; }
-  .pageBody .service-dots {
-    top: 3%;
-    right: -16%; }
-  .pageBody .service-lines2 {
-    top: 10%;
-    right: -17%; }
-  .pageBody .service-lines3 {
-    top: 65%;
-    right: -22%; }
-  .pageBody .service-lines4 {
-    top: 55%;
-    left: -22%; }
-
-/****************** START Header ******************/
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 443, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 header .header {
   display: -webkit-box;
   display: -moz-box;
@@ -468,25 +361,20 @@ header .header {
   justify-content: center;
   -ms-flex-pack: center;
   padding-top: 20px;
-<<<<<<< HEAD
   padding-bottom: 20px;
 }
 
-/* line 483, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 448, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 header .header .logo {
   width: 100px;
 }
 
 /* framework menu */
 /* END: framework menu */
-/* line 492, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content {
-  background-color: #171717;
-  height: 1000px;
-}
-
-/* line 495, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu {
+/*.menu-content { 
+    background-color: $menuColorBg; */
+/* line 459, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -500,13 +388,13 @@ header .header .logo {
   padding-top: 100px;
 }
 
-/* line 500, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu ul {
+/* line 464, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu ul {
   width: 360px;
 }
 
-/* line 505, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__links li a {
+/* line 469, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__links li a {
   font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
   font-size: 28px;
@@ -516,8 +404,8 @@ header .header .logo {
   line-height: 87px;
 }
 
-/* line 519, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__links li a, .menu-content .menu .menu__links li p, .menu-content .menu .panel li a, .menu-content .menu .panel li p {
+/* line 483, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__links li a, .menu .menu__links li p, .menu .panel li a, .menu .panel li p {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
@@ -528,8 +416,8 @@ header .header .logo {
   position: relative;
 }
 
-/* line 525, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__links li a:hover .border-slider, .menu-content .menu .menu__links li p:hover .border-slider, .menu-content .menu .panel li a:hover .border-slider, .menu-content .menu .panel li p:hover .border-slider {
+/* line 489, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__links li a:hover .border-slider, .menu .menu__links li p:hover .border-slider, .menu .panel li a:hover .border-slider, .menu .panel li p:hover .border-slider {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -538,8 +426,8 @@ header .header .logo {
   width: 100%;
 }
 
-/* line 530, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__links li .border-slider, .menu-content .menu .panel li .border-slider {
+/* line 494, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__links li .border-slider, .menu .panel li .border-slider {
   position: absolute;
   display: block;
   left: 0;
@@ -555,8 +443,8 @@ header .header .logo {
   transition: width 1s ease;
 }
 
-/* line 544, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__services .menu__title, .menu-content .menu .menu__contact .menu__title {
+/* line 508, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__services .menu__title, .menu .menu__contact .menu__title {
   color: #A99160;
   font-size: 26px;
   font-style: italic;
@@ -564,36 +452,36 @@ header .header .logo {
   letter-spacing: 0.07em;
 }
 
-/* line 551, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__services li, .menu-content .menu .menu__contact li {
+/* line 515, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__services li, .menu .menu__contact li {
   line-height: 73px;
 }
 
-/* line 554, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__services a, .menu-content .menu .menu__services p, .menu-content .menu .menu__contact a, .menu-content .menu .menu__contact p {
+/* line 518, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__services a, .menu .menu__services p, .menu .menu__contact a, .menu .menu__contact p {
   text-decoration: none;
   color: #B9B9B9;
   font-size: 18px;
   letter-spacing: 0.2em;
 }
 
-/* line 564, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__contact li .menu__icon__mobile, .menu-content .menu .menu__contact li .menu__icon__email {
+/* line 528, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__contact li .menu__icon__mobile, .menu .menu__contact li .menu__icon__email {
   margin-right: 10px;
 }
 
-/* line 569, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__contact li .menu__icon__mobile img {
+/* line 533, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__contact li .menu__icon__mobile img {
   width: 12px;
 }
 
-/* line 574, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu__contact li .menu__icon__email img {
+/* line 538, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu__contact li .menu__icon__email img {
   width: 24px;
 }
 
-/* line 581, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu-social {
+/* line 545, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu-social {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -601,13 +489,13 @@ header .header .logo {
   display: flex;
 }
 
-/* line 583, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu-social li {
+/* line 547, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu-social li {
   margin-right: 20px;
 }
 
-/* line 586, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu-social li p a {
+/* line 550, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu-social li p a {
   color: #A99160;
   font-family: 'Crimson Text', serif;
   text-decoration: none;
@@ -616,114 +504,31 @@ header .header .logo {
   font-style: italic;
 }
 
-/* line 594, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu-social li p span {
+/* line 558, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu-social li p span {
   margin-right: 10px;
 }
 
-/* line 599, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu-social li .menu-social___facebook img {
+/* line 563, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu-social li .menu-social___facebook img {
   width: 10px;
 }
 
-/* line 604, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu-social li .menu-social___twitter img {
+/* line 568, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu-social li .menu-social___twitter img {
   width: 23px;
 }
 
-/* line 609, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-.menu-content .menu .menu-social li .menu-social___linkedin img {
+/* line 573, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+.menu .menu-social li .menu-social___linkedin img {
   width: 19px;
 }
-=======
-  padding-bottom: 20px; }
-  header .header .logo {
-    width: 100px; }
 
-/* framework menu */
-/* END: framework menu */
-.menu-content {
-  background-color: #171717;
-  height: 1000px; }
-  .menu-content .menu {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 100px;
-    padding-top: 100px; }
-    .menu-content .menu ul {
-      width: 360px; }
-    .menu-content .menu .menu__links li a {
-      font-family: 'PT Sans', sans-serif;
-      text-transform: uppercase;
-      font-size: 28px;
-      letter-spacing: 0.32em;
-      text-decoration: none;
-      color: #e4e4e4;
-      line-height: 87px; }
-    .menu-content .menu .menu__links li a, .menu-content .menu .menu__links li p, .menu-content .menu .panel li a, .menu-content .menu .panel li p {
-      transition: all .2s ease-out;
-      border-bottom: solid transparent 4px;
-      position: relative; }
-      .menu-content .menu .menu__links li a:hover .border-slider, .menu-content .menu .menu__links li p:hover .border-slider, .menu-content .menu .panel li a:hover .border-slider, .menu-content .menu .panel li p:hover .border-slider {
-        transition: 0.5s;
-        width: 100%; }
-    .menu-content .menu .menu__links li .border-slider, .menu-content .menu .panel li .border-slider {
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 100%;
-      margin: 0 auto;
-      height: 2px;
-      background-color: #A99160;
-      width: 0%;
-      transition: width 1s ease; }
-    .menu-content .menu .menu__services .menu__title, .menu-content .menu .menu__contact .menu__title {
-      color: #A99160;
-      font-size: 26px;
-      font-style: italic;
-      font-family: 'Crimson Text', serif;
-      letter-spacing: 0.07em; }
-    .menu-content .menu .menu__services li, .menu-content .menu .menu__contact li {
-      line-height: 73px; }
-    .menu-content .menu .menu__services a, .menu-content .menu .menu__services p, .menu-content .menu .menu__contact a, .menu-content .menu .menu__contact p {
-      text-decoration: none;
-      color: #B9B9B9;
-      font-size: 18px;
-      letter-spacing: 0.2em; }
-    .menu-content .menu .menu__contact li .menu__icon__mobile, .menu-content .menu .menu__contact li .menu__icon__email {
-      margin-right: 10px; }
-    .menu-content .menu .menu__contact li .menu__icon__mobile img {
-      width: 12px; }
-    .menu-content .menu .menu__contact li .menu__icon__email img {
-      width: 24px; }
-    .menu-content .menu .menu-social {
-      display: flex; }
-      .menu-content .menu .menu-social li {
-        margin-right: 20px; }
-        .menu-content .menu .menu-social li p a {
-          color: #A99160;
-          font-family: 'Crimson Text', serif;
-          text-decoration: none;
-          font-size: 20px;
-          letter-spacing: 0.07em;
-          font-style: italic; }
-        .menu-content .menu .menu-social li p span {
-          margin-right: 10px; }
-        .menu-content .menu .menu-social li .menu-social___facebook img {
-          width: 10px; }
-        .menu-content .menu .menu-social li .menu-social___twitter img {
-          width: 23px; }
-        .menu-content .menu .menu-social li .menu-social___linkedin img {
-          width: 19px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-
+/* } */
 /****************** END START Header ******************/
 /****************** START Content ******************/
 /****************** START welcome section ******************/
-<<<<<<< HEAD
-/* line 627, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 591, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome {
   height: 100%;
   display: -webkit-box;
@@ -735,7 +540,6 @@ header .header .logo {
   -moz-justify-content: flex-end;
   -ms-justify-content: flex-end;
   justify-content: flex-end;
-<<<<<<< HEAD
   -ms-flex-pack: flex-end;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -744,7 +548,7 @@ header .header .logo {
   flex-wrap: wrap;
 }
 
-/* line 633, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 597, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text {
   display: -webkit-box;
   display: -moz-box;
@@ -762,7 +566,7 @@ header .header .logo {
   width: 55%;
 }
 
-/* line 639, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 603, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__hello .txt1 {
   font-size: 130px;
   font-weight: 700;
@@ -772,7 +576,7 @@ header .header .logo {
   margin-bottom: 40px;
 }
 
-/* line 646, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 610, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__hello .txt1 span {
   font-size: 48px;
   font-weight: 700;
@@ -780,13 +584,13 @@ header .header .logo {
   padding-bottom: 30px;
 }
 
-/* line 655, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 619, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__to {
   padding: 25px 0 25px 0;
   text-transform: uppercase;
 }
 
-/* line 658, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 622, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__to .txt2 {
   font-family: 'Crimson Text', serif;
   text-transform: uppercase;
@@ -798,13 +602,13 @@ header .header .logo {
   font-weight: 600;
 }
 
-/* line 670, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 634, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__mediavuk {
   /*position: relative;*/
   margin-bottom: 40px;
 }
 
-/* line 673, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 637, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
   background: #3A3A3A;
   position: relative;
@@ -817,7 +621,7 @@ header .header .logo {
   margin-left: 20px;
 }
 
-/* line 683, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 647, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .txt3 {
   text-align: center;
   padding: 0;
@@ -829,7 +633,7 @@ header .header .logo {
   font-weight: bold;
 }
 
-/* line 693, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 657, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
   position: absolute;
   left: 112px;
@@ -838,7 +642,7 @@ header .header .logo {
   width: 100%;
 }
 
-/* line 699, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 663, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
   text-transform: uppercase;
   color: #A99160;
@@ -847,7 +651,7 @@ header .header .logo {
   font-weight: bold;
 }
 
-/* line 711, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 675, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__message {
   line-height: 30px;
   padding: 60px 0 35px 0;
@@ -855,7 +659,7 @@ header .header .logo {
   width: 85%;
 }
 
-/* line 716, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 680, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__message p {
   font-size: 20px;
   letter-spacing: 4px;
@@ -863,7 +667,7 @@ header .header .logo {
   line-height: 53px;
 }
 
-/* line 721, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 685, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__text .welcome__text__message p span {
   font-weight: bold;
   text-transform: uppercase;
@@ -871,100 +675,15 @@ header .header .logo {
   letter-spacing: 8px;
 }
 
-/* line 731, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 695, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__icons {
   margin-left: 70px;
 }
 
-/* line 733, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 697, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .welcome .welcome__icons img {
   width: 500px;
 }
-=======
-  flex-wrap: wrap; }
-  .welcome .welcome__text {
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-    width: 55%; }
-    .welcome .welcome__text .welcome__text__hello .txt1 {
-      font-size: 130px;
-      font-weight: 700;
-      color: #3A3A3A;
-      line-height: 48px;
-      letter-spacing: 2px;
-      margin-bottom: 40px; }
-      .welcome .welcome__text .welcome__text__hello .txt1 span {
-        font-size: 48px;
-        font-weight: 700;
-        color: #3A3A3A;
-        padding-bottom: 30px; }
-    .welcome .welcome__text .welcome__text__to {
-      padding: 25px 0 25px 0;
-      text-transform: uppercase; }
-      .welcome .welcome__text .welcome__text__to .txt2 {
-        font-family: 'Crimson Text', serif;
-        text-transform: uppercase;
-        text-align: left;
-        padding: 0;
-        font-size: 36px;
-        letter-spacing: 25px;
-        color: #A99160;
-        font-weight: 600; }
-    .welcome .welcome__text .welcome__text__mediavuk {
-      /*position: relative;*/
-      margin-bottom: 40px; }
-      .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
-        background: #3A3A3A;
-        position: relative;
-        text-align: center;
-        height: 63px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 412px;
-        margin-left: 20px; }
-        .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .txt3 {
-          text-align: center;
-          padding: 0;
-          font-size: 30px;
-          color: #fff;
-          letter-spacing: 20px;
-          text-transform: uppercase;
-          line-height: 30px;
-          font-weight: bold; }
-        .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
-          position: absolute;
-          left: 112px;
-          top: 80px;
-          bottom: -30px;
-          width: 100%; }
-          .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
-            text-transform: uppercase;
-            color: #A99160;
-            letter-spacing: 8px;
-            font-size: 15px;
-            font-weight: bold; }
-    .welcome .welcome__text .welcome__text__message {
-      line-height: 30px;
-      padding: 60px 0 35px 0;
-      /*border-bottom: dotted 4px;*/
-      width: 85%; }
-      .welcome .welcome__text .welcome__text__message p {
-        font-size: 20px;
-        letter-spacing: 4px;
-        color: #3A3A3A;
-        line-height: 53px; }
-        .welcome .welcome__text .welcome__text__message p span {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 25px;
-          letter-spacing: 8px; }
-  .welcome .welcome__icons {
-    margin-left: 70px; }
-    .welcome .welcome__icons img {
-      width: 500px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
 
 /****************** END: welcome section ******************/
 /****************** START Content ******************/
@@ -977,10 +696,7 @@ header .header .logo {
     padding: 10px!important;
 }*/
 /* --- END Owl slider dotted ---*/
-<<<<<<< HEAD
-/* line 768, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 732, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider {
   display: -webkit-box;
   display: -moz-box;
@@ -995,30 +711,29 @@ header .header .logo {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-<<<<<<< HEAD
   margin-top: 140px;
 }
 
-/* line 774, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 738, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .owl-carousel .owl-stage-outer {
   /*height: 500px!important;*/
 }
 
-/* line 778, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 742, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__title {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 782, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 746, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__title h1 {
   position: relative;
   display: block;
   margin-bottom: 75px;
 }
 
-/* line 786, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 750, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__title h1:before {
   content: '';
   width: 86px;
@@ -1031,24 +746,24 @@ header .header .logo {
   right: 0;
 }
 
-/* line 799, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 763, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl {
   width: 100%;
 }
 
-/* line 801, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 765, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl img {
   width: 80%;
 }
 
-/* line 804, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 768, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row {
   position: relative;
   width: 100%;
   padding-bottom: 150px;
 }
 
-/* line 808, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 772, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider {
   position: absolute;
   bottom: 0;
@@ -1059,13 +774,13 @@ header .header .logo {
   padding: 40px 52px 40px 50px;
 }
 
-/* line 816, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 780, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider .window-slider__text {
   position: relative;
   width: 75%;
 }
 
-/* line 819, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 783, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
   position: absolute;
   width: 50px;
@@ -1079,7 +794,7 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 826, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 790, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
   right: -100px;
   bottom: -15px;
@@ -1090,7 +805,7 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 832, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 796, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider .window-slider__text .identityTxt {
   font-family: 'Crimson Text', serif;
   font-size: 23px;
@@ -1099,7 +814,7 @@ header .header .logo {
   color: #3A3A3A;
 }
 
-/* line 839, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 803, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
   text-transform: uppercase;
   color: #A99160;
@@ -1111,7 +826,7 @@ header .header .logo {
   margin-top: 30px;
 }
 
-/* line 849, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 813, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt {
   font-size: 26px;
   letter-spacing: 2px;
@@ -1119,12 +834,12 @@ header .header .logo {
   font-family: 'Crimson Text', serif;
 }
 
-/* line 854, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 818, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt span {
   text-transform: uppercase;
 }
 
-/* line 863, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 827, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__all-work {
   margin-bottom: 30px;
   margin-top: 60px;
@@ -1142,7 +857,7 @@ header .header .logo {
   text-align: right;
 }
 
-/* line 870, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 834, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__all-work a {
   text-transform: uppercase;
   font-weight: bold;
@@ -1158,7 +873,7 @@ header .header .logo {
   transition: 0.4s;
 }
 
-/* line 879, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 843, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .slider .slider__all-work a:hover {
   background-color: #A99160;
   color: #fff;
@@ -1171,105 +886,7 @@ header .header .logo {
 
 /****************** END: slider section ******************/
 /****************** START services section ******************/
-/* line 896, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  margin-top: 140px; }
-  .slider .owl-carousel .owl-stage-outer {
-    /*height: 500px!important;*/ }
-  .slider .slider__title {
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center; }
-    .slider .slider__title h1 {
-      position: relative;
-      display: block;
-      margin-bottom: 75px; }
-      .slider .slider__title h1:before {
-        content: '';
-        width: 86px;
-        height: 6px;
-        background: #A99160;
-        position: absolute;
-        margin: auto;
-        left: 0;
-        top: -25px;
-        right: 0; }
-  .slider .slider__owl {
-    width: 100%; }
-    .slider .slider__owl img {
-      width: 80%; }
-    .slider .slider__owl .slider-row {
-      position: relative;
-      width: 100%;
-      padding-bottom: 150px; }
-      .slider .slider__owl .slider-row .window-slider {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        border: solid 5px #a78f5f;
-        width: 400px;
-        background: #fff;
-        padding: 40px 52px 40px 50px; }
-        .slider .slider__owl .slider-row .window-slider .window-slider__text {
-          position: relative;
-          width: 75%; }
-          .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            right: -80px;
-            bottom: -15px;
-            transition: 0.2s; }
-            .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
-              right: -100px;
-              bottom: -15px;
-              transition: 0.2s; }
-          .slider .slider__owl .slider-row .window-slider .window-slider__text .identityTxt {
-            font-family: 'Crimson Text', serif;
-            font-size: 23px;
-            letter-spacing: 1px;
-            line-height: 42px;
-            color: #3A3A3A; }
-          .slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
-            text-transform: uppercase;
-            color: #A99160;
-            font-weight: bold;
-            font-size: 30px;
-            letter-spacing: 0.3em;
-            line-height: 46px;
-            margin-bottom: 30px;
-            margin-top: 30px; }
-          .slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt {
-            font-size: 26px;
-            letter-spacing: 2px;
-            color: #3A3A3A;
-            font-family: 'Crimson Text', serif; }
-            .slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt span {
-              text-transform: uppercase; }
-  .slider .slider__all-work {
-    margin-bottom: 30px;
-    margin-top: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    text-align: right; }
-    .slider .slider__all-work a {
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 18px;
-      letter-spacing: 0.4em;
-      text-decoration: none;
-      color: #3A3A3A;
-      padding: 10px 30px;
-      transition: 0.4s; }
-      .slider .slider__all-work a:hover {
-        background-color: #A99160;
-        color: #fff;
-        transition: 0.4s; }
-
-/****************** END: slider section ******************/
-/****************** START services section ******************/
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 860, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__title {
   display: -webkit-box;
   display: -moz-box;
@@ -1280,7 +897,6 @@ header .header .logo {
   -moz-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-<<<<<<< HEAD
   -ms-flex-pack: center;
   -webkit-align-items: baseline;
   -moz-align-items: baseline;
@@ -1288,7 +904,7 @@ header .header .logo {
   align-items: baseline;
 }
 
-/* line 900, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 864, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__title h1 {
   position: relative;
   border: solid 5px black;
@@ -1296,7 +912,7 @@ header .header .logo {
   background: #fff;
 }
 
-/* line 905, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 869, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__title h1:before {
   width: 99%;
   content: '';
@@ -1308,24 +924,7 @@ header .header .logo {
   z-index: -1;
 }
 
-/* line 918, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  align-items: baseline; }
-  .services-new .services__title h1 {
-    position: relative;
-    border: solid 5px black;
-    padding: 40px 50px 40px 50px;
-    background: #fff; }
-    .services-new .services__title h1:before {
-      width: 99%;
-      content: '';
-      position: absolute;
-      background: url(../img/patternbg.png) repeat;
-      height: 97%;
-      top: 34px;
-      right: -30px;
-      z-index: -1; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 882, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons {
   display: -webkit-box;
   display: -moz-box;
@@ -1340,7 +939,6 @@ header .header .logo {
   -moz-justify-content: space-around;
   -ms-justify-content: space-around;
   justify-content: space-around;
-<<<<<<< HEAD
   -ms-flex-pack: space-around;
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
@@ -1348,7 +946,7 @@ header .header .logo {
   flex-direction: row;
 }
 
-/* line 923, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 887, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons {
   z-index: 1;
   width: 33%;
@@ -1363,12 +961,12 @@ header .header .logo {
   margin-bottom: 70px;
 }
 
-/* line 931, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 895, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons .icons-title {
   margin-top: 60px;
 }
 
-/* line 933, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 897, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons .icons-title p {
   display: inline-block;
   position: relative;
@@ -1378,7 +976,7 @@ header .header .logo {
   line-height: 41px;
 }
 
-/* line 940, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 904, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons .icons-title p:before {
   background-color: red;
   opacity: 0;
@@ -1396,7 +994,7 @@ header .header .logo {
   right: 0;
 }
 
-/* line 955, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 919, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons .icons__hover {
   opacity: 0;
   position: absolute;
@@ -1413,7 +1011,7 @@ header .header .logo {
   margin: auto;
 }
 
-/* line 968, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 932, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:hover .icons__hover {
   opacity: 1;
   position: absolute;
@@ -1430,12 +1028,12 @@ header .header .logo {
   color: #fff;
 }
 
-/* line 979, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 943, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:hover .icons-title {
   position: relative;
 }
 
-/* line 982, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 946, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:hover .icons-title p:before {
   opacity: 1;
   height: 50%;
@@ -1446,128 +1044,47 @@ header .header .logo {
   transition: 1s;
 }
 
-/* line 993, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 957, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:nth-child(1) .icons-title p:before {
   background-color: #33ccff;
 }
 
-/* line 1002, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 966, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:nth-child(2) .icons-title p:before {
   background-color: #c16efe;
 }
 
-/* line 1011, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 975, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:nth-child(3) .icons-title p:before {
   background-color: #00f6c5;
 }
 
-/* line 1020, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 984, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:nth-child(4) .icons-title p:before {
   background-color: #e5e541;
 }
 
-/* line 1029, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 993, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:nth-child(5) .icons-title p:before {
   background-color: #ffa97d;
 }
 
-/* line 1038, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1002, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .services-new .services__icons .icons:nth-child(6) .icons-title p:before {
   background-color: #ff74a1;
 }
-=======
-  flex-direction: row; }
-  .services-new .services__icons .icons {
-    z-index: 1;
-    width: 33%;
-    text-align: center;
-    transition: 0.2s;
-    position: relative;
-    margin-top: 70px;
-    margin-bottom: 70px; }
-    .services-new .services__icons .icons .icons-title {
-      margin-top: 60px; }
-      .services-new .services__icons .icons .icons-title p {
-        display: inline-block;
-        position: relative;
-        margin-right: -6px;
-        padding-left: 10px;
-        letter-spacing: 10px;
-        line-height: 41px; }
-        .services-new .services__icons .icons .icons-title p:before {
-          background-color: red;
-          opacity: 0;
-          position: absolute;
-          content: '';
-          bottom: 0;
-          z-index: -1;
-          left: 0;
-          margin: auto;
-          transition: 2s;
-          right: 0; }
-    .services-new .services__icons .icons .icons__hover {
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 3;
-      right: 0;
-      transition: 0.2s;
-      bottom: 0;
-      margin: auto; }
-    .services-new .services__icons .icons:hover .icons__hover {
-      opacity: 1;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      transition: 0.2s;
-      padding-bottom: 10px;
-      color: #fff; }
-    .services-new .services__icons .icons:hover .icons-title {
-      position: relative; }
-      .services-new .services__icons .icons:hover .icons-title p:before {
-        opacity: 1;
-        height: 50%;
-        transition: 1s; }
-    .services-new .services__icons .icons:nth-child(1) .icons-title p:before {
-      background-color: #33ccff; }
-    .services-new .services__icons .icons:nth-child(2) .icons-title p:before {
-      background-color: #c16efe; }
-    .services-new .services__icons .icons:nth-child(3) .icons-title p:before {
-      background-color: #00f6c5; }
-    .services-new .services__icons .icons:nth-child(4) .icons-title p:before {
-      background-color: #e5e541; }
-    .services-new .services__icons .icons:nth-child(5) .icons-title p:before {
-      background-color: #ffa97d; }
-    .services-new .services__icons .icons:nth-child(6) .icons-title p:before {
-      background-color: #ff74a1; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
 
 /****************** END: services section ******************/
 /****************** END: Content ******************/
 /****************** START service PAGE ******************/
 /****************** START service CONTENT ******************/
 /* START service framework */
-<<<<<<< HEAD
-/* line 1065, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1029, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-title {
-  position: relative; }
-  .service-title:before {
-    content: '';
-    width: 86px;
-    height: 6px;
-    background: #A99160;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    top: -25px; }
+  position: relative;
+}
 
-<<<<<<< HEAD
-/* line 1067, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1031, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-title:before {
   content: '';
   width: 86px;
@@ -1579,9 +1096,7 @@ header .header .logo {
   top: -25px;
 }
 
-/* line 1079, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1043, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-button {
   text-transform: uppercase;
   font-weight: bold;
@@ -1590,7 +1105,6 @@ header .header .logo {
   letter-spacing: 0.4em;
   text-decoration: none;
   color: #3A3A3A;
-<<<<<<< HEAD
   border: solid 3px #3A3A3A;
   padding: 15px 48px 15px 48px;
   -webkit-transition: 0.2s;
@@ -1600,7 +1114,7 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 1090, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1054, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-button:hover {
   color: #fff;
   background-color: #3A3A3A;
@@ -1611,7 +1125,7 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 1097, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1061, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-flex-start {
   -webkit-justify-content: flex-start;
   -moz-justify-content: flex-start;
@@ -1620,7 +1134,7 @@ header .header .logo {
   -ms-flex-pack: flex-start;
 }
 
-/* line 1101, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1065, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-flex-end {
   -webkit-justify-content: flex-end;
   -moz-justify-content: flex-end;
@@ -1630,19 +1144,7 @@ header .header .logo {
 }
 
 /* END: service framework */
-/* line 1108, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  border: solid 3px black;
-  padding: 15px 48px 15px 48px; }
-
-.service-flex-start {
-  justify-content: flex-start; }
-
-.service-flex-end {
-  justify-content: flex-end; }
-
-/* END: service framework */
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1072, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__header {
   display: -webkit-box;
   display: -moz-box;
@@ -1658,11 +1160,10 @@ header .header .logo {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-<<<<<<< HEAD
   text-align: center;
 }
 
-/* line 1113, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1077, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__header .service__header__title {
   text-align: center;
   display: -webkit-box;
@@ -1677,7 +1178,7 @@ header .header .logo {
   -ms-flex-pack: center;
 }
 
-/* line 1117, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1081, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__header .service__header__title h1 {
   width: 40%;
   position: relative;
@@ -1688,7 +1189,7 @@ header .header .logo {
   letter-spacing: 0.4em;
 }
 
-/* line 1125, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1089, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__header .service__header__title h1:before {
   content: '';
   width: 86px;
@@ -1701,32 +1202,7 @@ header .header .logo {
   right: 0;
 }
 
-/* line 1140, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  text-align: center; }
-  .service-content .service .service__header .service__header__title {
-    text-align: center;
-    display: flex;
-    justify-content: center; }
-    .service-content .service .service__header .service__header__title h1 {
-      width: 40%;
-      position: relative;
-      margin-bottom: 50px;
-      margin-top: 115px;
-      line-height: 70px;
-      font-size: 45px;
-      letter-spacing: 0.4em; }
-      .service-content .service .service__header .service__header__title h1:before {
-        content: '';
-        width: 86px;
-        height: 6px;
-        background: #A99160;
-        position: absolute;
-        margin: auto;
-        left: 0;
-        top: -39px;
-        right: 0; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1104, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description {
   display: -webkit-box;
   display: -moz-box;
@@ -1737,7 +1213,6 @@ header .header .logo {
   -moz-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-<<<<<<< HEAD
   -ms-flex-pack: space-between;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -1745,12 +1220,12 @@ header .header .logo {
   flex-wrap: wrap;
 }
 
-/* line 1144, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1108, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__text {
   width: 60%;
 }
 
-/* line 1146, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1110, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__text p {
   font-family: 'Crimson Text', serif;
   font-size: 20px;
@@ -1760,24 +1235,24 @@ header .header .logo {
   line-height: 30px;
 }
 
-/* line 1155, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1119, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__box {
   width: 30%;
 }
 
-/* line 1157, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1121, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__box .box {
   position: relative;
   border: solid 5px #3A3A3A;
   padding: 40px 30px 40px 30px;
 }
 
-/* line 1161, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1125, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__box .box .a-last {
   padding: 0;
 }
 
-/* line 1164, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1128, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__box .box a {
   text-transform: uppercase;
   font-weight: bold;
@@ -1791,7 +1266,7 @@ header .header .logo {
   padding-bottom: 10px;
 }
 
-/* line 1176, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1140, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__box .box:before {
   content: '';
   width: 100%;
@@ -1803,90 +1278,46 @@ header .header .logo {
   z-index: -1;
 }
 
-/* line 1188, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1152, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__img {
   width: 85%;
 }
 
-/* line 1190, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1154, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__description .description__img img {
   width: 100%;
 }
 
-/* line 1197, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  flex-wrap: wrap; }
-  .service-content .service .service__description .description__text {
-    width: 60%; }
-    .service-content .service .service__description .description__text p {
-      font-family: 'Crimson Text', serif;
-      font-size: 20px;
-      text-decoration: none;
-      color: #404040;
-      letter-spacing: 0.01em;
-      line-height: 30px; }
-  .service-content .service .service__description .description__box {
-    width: 30%; }
-    .service-content .service .service__description .description__box .box {
-      position: relative;
-      border: solid 5px #3A3A3A;
-      padding: 40px 30px 40px 30px; }
-      .service-content .service .service__description .description__box .box .a-last {
-        padding: 0; }
-      .service-content .service .service__description .description__box .box a {
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 18px;
-        letter-spacing: 5px;
-        line-height: 30px;
-        text-decoration: none;
-        color: #3A3A3A;
-        display: inline-block;
-        padding-bottom: 10px; }
-      .service-content .service .service__description .description__box .box:before {
-        content: '';
-        width: 100%;
-        position: absolute;
-        background: url(../img/patternbg.png) repeat;
-        height: 98%;
-        top: 34px;
-        right: -30px;
-        z-index: -1; }
-  .service-content .service .service__description .description__img {
-    width: 85%; }
-    .service-content .service .service__description .description__img img {
-      width: 100%; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1161, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-<<<<<<< HEAD
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-/* line 1200, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1164, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation .reputation__title {
   width: 36%;
 }
 
-/* line 1202, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1166, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation .reputation__title h1 {
   margin-bottom: 35px;
   margin-top: 25px;
 }
 
-/* line 1207, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1171, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation .reputation__text-button {
   width: 62%;
 }
 
-/* line 1209, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1173, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation .reputation__text-button p {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
@@ -1897,46 +1328,22 @@ header .header .logo {
   letter-spacing: 0.01em;
 }
 
-/* line 1218, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1182, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation .reputation__text-button .text-button {
   margin-top: 50px;
 }
 
-/* line 1222, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1186, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation .reputation__img {
   width: 85%;
 }
 
-/* line 1224, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1188, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service__content .reputation .reputation__img img {
   width: 100%;
 }
 
-/* line 1231, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  flex-wrap: wrap; }
-  .service-content .service .service__content .reputation .reputation__title {
-    width: 36%; }
-    .service-content .service .service__content .reputation .reputation__title h1 {
-      margin-bottom: 35px;
-      margin-top: 25px; }
-  .service-content .service .service__content .reputation .reputation__text-button {
-    width: 62%; }
-    .service-content .service .service__content .reputation .reputation__text-button p {
-      font-family: 'Crimson Text', serif;
-      font-size: 18px;
-      text-decoration: none;
-      color: #404040;
-      line-height: 30px;
-      padding-top: 31px;
-      letter-spacing: 0.01em; }
-    .service-content .service .service__content .reputation .reputation__text-button .text-button {
-      margin-top: 50px; }
-  .service-content .service .service__content .reputation .reputation__img {
-    width: 85%; }
-    .service-content .service .service__content .reputation .reputation__img img {
-      width: 100%; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1195, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .service-content .service .service-paragraph p {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
@@ -1944,16 +1351,14 @@ header .header .logo {
   color: #404040;
   line-height: 30px;
   padding-top: 31px;
-  letter-spacing: 0.01em; }
+  letter-spacing: 0.01em;
+}
 
 /****************** END: service CONTENT ******************/
 /****************** END: service PAGE ******************/
 /****************** START privacy-polisy PAGE ******************/
 /****************** START privacy-polisy CONTENT ******************/
-<<<<<<< HEAD
-/* line 1256, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1220, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__header {
   display: -webkit-box;
   display: -moz-box;
@@ -1969,11 +1374,10 @@ header .header .logo {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-<<<<<<< HEAD
   text-align: center;
 }
 
-/* line 1261, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1225, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__header .pp__header__title {
   display: -webkit-box;
   display: -moz-box;
@@ -1988,13 +1392,13 @@ header .header .logo {
   text-align: center;
 }
 
-/* line 1265, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1229, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__header .pp__header__title h1 {
   position: relative;
   margin-bottom: 40px;
 }
 
-/* line 1268, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1232, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__header .pp__header__title h1:before {
   content: '';
   width: 86px;
@@ -2007,20 +1411,20 @@ header .header .logo {
   right: 0;
 }
 
-/* line 1283, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1247, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__text {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* line 1286, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1250, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__text .pp__text__title {
   padding-left: 25px;
   margin-bottom: 35px;
   margin-top: 35px;
 }
 
-/* line 1290, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1254, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__text .pp__text__title li {
   font-size: 28px;
   color: #A99160;
@@ -2030,7 +1434,7 @@ header .header .logo {
   text-transform: uppercase;
 }
 
-/* line 1300, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1264, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__text .pp__text__txt p, .pp-content .pp .pp__text .pp__text__txt li {
   font-family: 'Crimson Text', serif;
   line-height: 25px;
@@ -2039,63 +1443,18 @@ header .header .logo {
   margin-bottom: 35px;
 }
 
-/* line 1308, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1272, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .pp-content .pp .pp__text .pp__text__txt ul li {
   list-style: disc;
   line-height: 30px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
-=======
-  text-align: center; }
-  .pp-content .pp .pp__header .pp__header__title {
-    text-align: center;
-    display: flex;
-    justify-content: center; }
-    .pp-content .pp .pp__header .pp__header__title h1 {
-      position: relative;
-      margin-bottom: 40px; }
-      .pp-content .pp .pp__header .pp__header__title h1:before {
-        content: '';
-        width: 86px;
-        height: 6px;
-        background: #A99160;
-        position: absolute;
-        margin: auto;
-        left: 0;
-        top: -25px;
-        right: 0; }
-.pp-content .pp .pp__text {
-  margin-top: 50px;
-  margin-bottom: 50px; }
-  .pp-content .pp .pp__text .pp__text__title {
-    padding-left: 25px;
-    margin-bottom: 35px;
-    margin-top: 35px; }
-    .pp-content .pp .pp__text .pp__text__title li {
-      font-size: 28px;
-      color: #A99160;
-      font-weight: bold;
-      letter-spacing: 3px;
-      list-style: disc;
-      text-transform: uppercase; }
-  .pp-content .pp .pp__text .pp__text__txt p, .pp-content .pp .pp__text .pp__text__txt li {
-    font-family: 'Crimson Text', serif;
-    line-height: 25px;
-    letter-spacing: 0.05em;
-    color: #333;
-    margin-bottom: 35px; }
-  .pp-content .pp .pp__text .pp__text__txt ul li {
-    list-style: disc;
-    line-height: 30px;
-    margin-bottom: 20px;
-    margin-left: 20px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
 
 /****************** END: privacy-polisy CONTENT ******************/
 /****************** END: privacy-polisy PAGE ******************/
 /****************** START: neutral page CONTENT ******************/
-/* line 1333, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1297, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__header {
   display: -webkit-box;
   display: -moz-box;
@@ -2114,12 +1473,12 @@ header .header .logo {
   text-align: center;
 }
 
-/* line 1338, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1302, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__header h1 {
   position: relative;
 }
 
-/* line 1340, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1304, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__header h1:before {
   content: '';
   width: 86px;
@@ -2132,14 +1491,14 @@ header .header .logo {
   right: 0;
 }
 
-/* line 1354, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1318, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__description .neutral__description__title {
   padding-left: 25px;
   margin-bottom: 35px;
   margin-top: 35px;
 }
 
-/* line 1358, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1322, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__description .neutral__description__title li {
   font-size: 28px;
   color: #A99160;
@@ -2149,7 +1508,7 @@ header .header .logo {
   text-transform: uppercase;
 }
 
-/* line 1367, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1331, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__description .neutral__description__text {
   font-family: 'Crimson Text', serif;
   font-size: 20px;
@@ -2159,12 +1518,12 @@ header .header .logo {
   line-height: 30px;
 }
 
-/* line 1375, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1339, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__description .neutral__description__img {
   width: 100%;
 }
 
-/* line 1377, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1341, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .neutralPage-content .neutral .neutral__description .neutral__description__img img {
   width: 100%;
 }
@@ -2172,10 +1531,7 @@ header .header .logo {
 /****************** END: neutral page CONTENT ******************/
 /****************** START footer ******************/
 /* START framework for footer content */
-<<<<<<< HEAD
-/* line 1397, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1361, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .footer-title {
   position: relative;
   font-size: 20px;
@@ -2183,12 +1539,10 @@ header .header .logo {
   text-transform: uppercase;
   font-weight: 700;
   color: #A99160;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+}
 
-<<<<<<< HEAD
-/* line 1407, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1371, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .footer-link {
   text-decoration: none;
   color: #959595;
@@ -2197,7 +1551,6 @@ header .header .logo {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 33px;
-<<<<<<< HEAD
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
@@ -2205,7 +1558,7 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 1416, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1380, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .footer-link:hover {
   color: #706449;
   -webkit-transition: 0.2s;
@@ -2215,14 +1568,7 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 1422, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  transition: 0.2s; }
-  .footer-link:hover {
-    color: #706449;
-    transition: 0.2s; }
-
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+/* line 1386, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .footer-link-contact {
   text-decoration: none;
   color: #959595;
@@ -2230,7 +1576,6 @@ header .header .logo {
   letter-spacing: 0.2em;
   font-weight: 400;
   line-height: 33px;
-<<<<<<< HEAD
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
@@ -2238,7 +1583,7 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 1430, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1394, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .footer-link-contact:hover {
   color: #706449;
   -webkit-transition: 0.2s;
@@ -2248,19 +1593,19 @@ header .header .logo {
   transition: 0.2s;
 }
 
-/* line 1434, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1398, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .footer-link-contact span {
   color: #959595;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-/* line 1441, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1405, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .before-f-title {
   position: relative;
 }
 
-/* line 1443, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+/* line 1407, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
 .before-f-title:before {
   content: '';
   width: 60px;
@@ -2271,28 +1616,6 @@ header .header .logo {
   left: 0;
   top: -25px;
 }
-=======
-  transition: 0.2s; }
-  .footer-link-contact:hover {
-    color: #706449;
-    transition: 0.2s; }
-  .footer-link-contact span {
-    color: #959595;
-    font-weight: 700;
-    text-transform: uppercase; }
-
-.before-f-title {
-  position: relative; }
-  .before-f-title:before {
-    content: '';
-    width: 60px;
-    height: 4px;
-    background: #A99160;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    top: -25px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
 
 /* END: framework for footer content */
 /* START footer content */
@@ -2382,64 +1705,43 @@ header .header .logo {
 /****************** END: WEBSITE BODY ******************/
 /****************** START RESPONSIVE ******************/
 @media only screen and (max-width: 1600px) {
-<<<<<<< HEAD
-  /* line 1553, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1517, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content {
-    padding: 30px 100px; } }
-@media only screen and (max-width: 1300px) {
-<<<<<<< HEAD
-  /* line 1561, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
-  .page-structure .background-img {
-    display: none; }
+    padding: 30px 100px;
+  }
+}
 
+@media only screen and (max-width: 1300px) {
+  /* line 1525, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  .page-structure .background-img {
+    display: none;
+  }
   /* START Welcome responsive */
-<<<<<<< HEAD
-  /* line 1567, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1531, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome {
     justify-content: center;
   }
-  /* line 1569, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1533, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text {
     width: 80%;
   }
-  /* line 1572, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1536, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__icons {
     margin-left: 0;
     margin-top: 50px;
   }
-  /* line 1575, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1539, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__icons img {
     width: 100%;
   }
   /* END: Welcome responsive */
   /* START services responsive */
-  /* line 1586, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  .welcome {
-    justify-content: center; }
-    .welcome .welcome__text {
-      width: 80%; }
-    .welcome .welcome__icons {
-      margin-left: 0;
-      margin-top: 50px; }
-      .welcome .welcome__icons img {
-        width: 100%; }
-
-  /* END: Welcome responsive */
-  /* START services responsive */
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1550, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .services-new .services__icons .icons {
-    width: 50%; }
-
+    width: 50%;
+  }
   /* END: services responsive */
-<<<<<<< HEAD
-  /* line 1595, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1559, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description {
     -webkit-justify-content: center;
     -moz-justify-content: center;
@@ -2450,162 +1752,118 @@ header .header .logo {
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-<<<<<<< HEAD
     -webkit-align-items: center;
     -moz-align-items: center;
     -ms-align-items: center;
     align-items: center;
   }
-  /* line 1599, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1563, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__text {
     width: 100%;
   }
-  /* line 1602, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1566, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
     margin-top: 50px;
   }
   /* START Footer responsive */
-  /* line 1612, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-    align-items: center; }
-    .service-content .service .service__description .description__text {
-      width: 100%; }
-    .service-content .service .service__description .description__box {
-      margin-top: 50px; }
-
-  /* START Footer responsive */
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1576, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   footer .footerWrap .footerWrap__footer-menu {
-    width: 60%; }
+    width: 60%;
+  }
+  /* END: Footer responsive */
+}
 
-  /* END: Footer responsive */ }
 @media only screen and (max-width: 1200px) {
-<<<<<<< HEAD
-  /* line 1622, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1586, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content {
     padding: 40px;
   }
-  /* line 1627, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1591, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__header .service__header__title h1 {
     width: auto;
   }
-  /* line 1633, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1597, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__content .reputation {
     justify-content: flex-start;
   }
-  /* line 1635, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1599, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__content .reputation .reputation__img, .service-content .service .service__content .reputation .reputation__title, .service-content .service .service__content .reputation .reputation__text-button {
     width: auto;
   }
-  /* line 1639, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1603, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__content .reputation .reputation__title h1 {
     margin-bottom: 0;
   }
-  /* line 1644, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1608, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__content .reputation .reputation__text-button p {
     padding-top: 15px;
   }
 }
 
 @media only screen and (max-width: 1175px) {
-  /* line 1658, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1622, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description {
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  /* line 1662, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1626, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__text {
     width: 100%;
   }
-  /* line 1665, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1629, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
     margin-top: 50px;
   }
 }
 
 @media only screen and (max-width: 1036px) {
-  /* line 1676, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1640, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description {
     justify-content: center;
   }
-  /* line 1678, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1642, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
     width: 38%;
   }
-  /* line 1681, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1645, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
     margin-top: 50px;
   }
 }
 
 @media only screen and (max-width: 980px) {
-  /* line 1691, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1655, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content {
     padding: 40px;
   }
-  /* line 1695, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  .service-content {
-    padding: 40px; }
-    .service-content .service .service__header .service__header__title h1 {
-      width: auto; }
-    .service-content .service .service__content .reputation {
-      justify-content: flex-start; }
-      .service-content .service .service__content .reputation .reputation__img, .service-content .service .service__content .reputation .reputation__title, .service-content .service .service__content .reputation .reputation__text-button {
-        width: auto; }
-      .service-content .service .service__content .reputation .reputation__title h1 {
-        margin-bottom: 0; }
-      .service-content .service .service__content .reputation .reputation__text-button p {
-        padding-top: 15px; } }
-@media only screen and (max-width: 1175px) {
-  .service-content .service .service__description {
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; }
-    .service-content .service .service__description .description__text {
-      width: 100%; }
-    .service-content .service .service__description .description__box {
-      margin-top: 50px; } }
-@media only screen and (max-width: 1036px) {
-  .service-content .service .service__description {
-    justify-content: center; }
-    .service-content .service .service__description .description__box {
-      width: 38%; }
-    .service-content .service .service__description .description__box {
-      margin-top: 50px; } }
-@media only screen and (max-width: 980px) {
-  .menu-content {
-    padding: 40px; }
-
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1659, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .pp-content {
-    padding: 40px; }
-
+    padding: 40px;
+  }
   /* START Slider responsive */
-<<<<<<< HEAD
-  /* line 1703, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1667, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row img {
     width: 100%;
   }
-  /* line 1707, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1671, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider {
     width: 39%;
     padding: 30px 40px 30px 40px;
   }
-  /* line 1710, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1674, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text {
     width: 100%;
   }
-  /* line 1712, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1676, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
     right: -10px;
   }
-  /* line 1714, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1678, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
     right: -20px;
   }
-  /* line 1718, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1682, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
     font-size: 25px;
     margin-bottom: 20px;
@@ -2613,7 +1871,7 @@ header .header .logo {
   }
   /* END: Slider responsive */
   /* Neutral page responsive */
-  /* line 1735, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1699, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .neutral .neutral__description {
     padding: 20px;
   }
@@ -2621,51 +1879,33 @@ header .header .logo {
 }
 
 @media only screen and (max-width: 930px) {
-  /* line 1747, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  .slider .slider__owl .slider-row img {
-    width: 100%; }
-  .slider .slider__owl .slider-row .window-slider {
-    width: 39%;
-    padding: 30px 40px 30px 40px; }
-    .slider .slider__owl .slider-row .window-slider .window-slider__text {
-      width: 100%; }
-      .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
-        right: -10px; }
-        .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
-          right: -20px; }
-      .slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
-        font-size: 25px;
-        margin-bottom: 20px;
-        margin-top: 20px; }
-
-  /* END: Slider responsive */ }
-@media only screen and (max-width: 930px) {
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1711, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
-    width: 40%; } }
+    width: 40%;
+  }
+}
+
 @media only screen and (max-width: 830px) {
   /* START Welcome responsive */
-<<<<<<< HEAD
-  /* line 1760, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1724, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text {
     width: 85%;
   }
-  /* line 1763, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1727, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__to .txt2 {
     font-size: 35px;
   }
-  /* line 1769, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1733, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
     padding: 5px 0px 5px 15px;
     width: 60%;
   }
-  /* line 1774, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1738, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__message {
     padding: 40px 0 35px 0;
     width: 100%;
   }
-  /* line 1777, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1741, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__message p {
     line-height: 45px;
     text-align: center;
@@ -2673,11 +1913,11 @@ header .header .logo {
   }
   /* END: Welcome responsive */
   /* START services responsive */
-  /* line 1792, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1756, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .services-new .services__icons .icons {
     width: 100%;
   }
-  /* line 1794, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1758, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .services-new .services__icons .icons .sub-title {
     font-size: 22px;
     letter-spacing: 6px;
@@ -2685,105 +1925,56 @@ header .header .logo {
   }
   /* END: services responsive */
   /* START Footer responsive */
-  /* line 1809, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1773, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   footer .footer-content .footer .footer__job-positions, footer .footer-content .footer .footer__logo, footer .footer-content .footer .footer__contact {
     width: 100%;
     text-align: center;
     margin-top: 60px;
   }
-  /* line 1815, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1779, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   footer .footer-content .footer .before-f-title::before {
     right: 0;
   }
-  /* line 1822, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-  .welcome .welcome__text {
-    width: 85%; }
-    .welcome .welcome__text .welcome__text__to .txt2 {
-      font-size: 35px; }
-    .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
-      padding: 5px 0px 5px 15px;
-      width: 60%; }
-    .welcome .welcome__text .welcome__text__message {
-      padding: 40px 0 35px 0;
-      width: 100%; }
-      .welcome .welcome__text .welcome__text__message p {
-        line-height: 45px;
-        text-align: center;
-        letter-spacing: 3px; }
-
-  /* END: Welcome responsive */
-  /* START services responsive */
-  .services-new .services__icons .icons {
-    width: 100%; }
-    .services-new .services__icons .icons .sub-title {
-      font-size: 22px;
-      letter-spacing: 6px;
-      line-height: 32px; }
-
-  /* END: services responsive */
-  /* START Footer responsive */
-  footer .footer-content .footer .footer__job-positions, footer .footer-content .footer .footer__logo, footer .footer-content .footer .footer__contact {
-    width: 100%;
-    text-align: center;
-    margin-top: 60px; }
-  footer .footer-content .footer .before-f-title::before {
-    right: 0; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1786, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   footer .footerWrap .footerWrap__footer-menu {
-    width: 80%; }
+    width: 80%;
+  }
+  /* END: Footer responsive */
+}
 
-  /* END: Footer responsive */ }
 @media only screen and (max-width: 780px) {
   /* START Menu responsive */
   /* accordion */
-<<<<<<< HEAD
-  /* line 1835, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1799, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .accordion {
     cursor: pointer;
     position: relative;
     border: none;
     outline: none;
     font-size: 15px;
-<<<<<<< HEAD
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
   }
-  /* line 1846, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-    transition: 0.4s; }
-
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1810, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .accordion:after {
     content: '\002B';
     position: absolute;
     color: #e4e4e4;
     font-weight: bold;
-<<<<<<< HEAD
     right: 40px;
   }
-  /* line 1853, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1817, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .active-acc:after {
     content: "\2212";
   }
-  /* line 1856, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-    right: 40px; }
-
-  .active-acc:after {
-    content: "\2212"; }
-
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1820, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .panel {
     background-color: unset;
     max-height: 0;
     overflow: hidden;
-<<<<<<< HEAD
     -webkit-transition: max-height 0.2s ease-out;
     -moz-transition: max-height 0.2s ease-out;
     -ms-transition: max-height 0.2s ease-out;
@@ -2791,27 +1982,26 @@ header .header .logo {
     transition: max-height 0.2s ease-out;
   }
   /* accordion */
-  /* line 1865, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1829, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content {
     height: 1500px;
     padding: 10px;
   }
-  /* line 1868, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1832, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu {
-    padding-top: 20px;
     justify-content: center;
     text-align: center;
   }
-  /* line 1872, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1835, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu__links, .menu-content .menu .menu__services, .menu-content .menu .menu__contact {
     width: 390px;
   }
-  /* line 1877, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1840, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu__links li a {
     line-height: 60px;
     font-size: 22px;
   }
-  /* line 1884, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1847, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu__services .menu__title, .menu-content .menu .menu__contact .menu__title {
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
@@ -2822,117 +2012,65 @@ header .header .logo {
     line-height: 70px;
     font-style: normal;
   }
-  /* line 1894, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1857, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu__services li, .menu-content .menu .menu__contact li {
     line-height: 50px;
   }
-  /* line 1897, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1860, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu__services li p, .menu-content .menu .menu__services li a, .menu-content .menu .menu__contact li p, .menu-content .menu .menu__contact li a {
     font-size: 16px;
   }
-  /* line 1901, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1864, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu__services .menu-social, .menu-content .menu .menu__contact .menu-social {
     width: auto;
   }
-  /* line 1905, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1868, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu-social {
     align-items: baseline;
     justify-content: space-evenly;
   }
-  /* line 1908, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1871, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu .menu-social li {
     margin: 0;
   }
   /* END: Menu responsive */
   /* START Welcome responsive */
-  /* line 1921, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1884, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
     width: 80%;
   }
-  /* line 1923, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1886, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
     left: 80px;
   }
-  /* line 1925, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1888, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
     letter-spacing: 7px;
     font-size: 12px;
   }
   /* END: Welcome responsive */
-  /* line 1940, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1903, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
     width: 54%;
   }
-  /* line 1948, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-    transition: max-height 0.2s ease-out; }
-
-  /* accordion */
-  .menu-content {
-    height: 1500px;
-    padding: 10px; }
-    .menu-content .menu {
-      padding-top: 20px;
-      justify-content: center;
-      text-align: center; }
-      .menu-content .menu .menu__links, .menu-content .menu .menu__services, .menu-content .menu .menu__contact {
-        width: 390px; }
-      .menu-content .menu .menu__links li a {
-        line-height: 60px;
-        font-size: 22px; }
-      .menu-content .menu .menu__services .menu__title, .menu-content .menu .menu__contact .menu__title {
-        font-family: 'PT Sans', sans-serif;
-        text-transform: uppercase;
-        font-size: 22px;
-        letter-spacing: 0.32em;
-        text-decoration: none;
-        color: #e4e4e4;
-        line-height: 70px;
-        font-style: normal; }
-      .menu-content .menu .menu__services li, .menu-content .menu .menu__contact li {
-        line-height: 50px; }
-        .menu-content .menu .menu__services li p, .menu-content .menu .menu__services li a, .menu-content .menu .menu__contact li p, .menu-content .menu .menu__contact li a {
-          font-size: 16px; }
-      .menu-content .menu .menu__services .menu-social, .menu-content .menu .menu__contact .menu-social {
-        width: auto; }
-      .menu-content .menu .menu-social {
-        align-items: baseline;
-        justify-content: space-evenly; }
-        .menu-content .menu .menu-social li {
-          margin: 0; }
-
-  /* END: Menu responsive */
-  /* START Welcome responsive */
-  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
-    width: 80%; }
-    .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
-      left: 80px; }
-      .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
-        letter-spacing: 7px;
-        font-size: 12px; }
-
-  /* END: Welcome responsive */
-  .service-content .service .service__description .description__box {
-    width: 54%; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1911, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .reputation .reputation__text-button .text-button a {
-    font-size: 14px; } }
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 730px) {
   /* START Footer responsive */
-<<<<<<< HEAD
-  /* line 1964, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1927, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   footer .footerWrap .footerWrap__footer-menu {
-    width: 90%; }
+    width: 90%;
+  }
+  /* END: Footer responsive */
+}
 
-  /* END: Footer responsive */ }
 @media only screen and (max-width: 710px) {
   /* START Slider responsive */
-<<<<<<< HEAD
-  /* line 1980, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1943, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider {
     width: 100%;
     right: 0px;
@@ -2940,78 +2078,57 @@ header .header .logo {
     bottom: 30px;
     border: none;
     background: inherit;
-<<<<<<< HEAD
     padding: 0;
   }
-  /* line 1989, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1952, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
     font-size: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  /* line 1994, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1957, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .identityTxt {
     font-size: 16px;
     line-height: 30px;
   }
-  /* line 1998, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1961, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt {
     font-size: 18px;
     line-height: 30px;
   }
-  /* line 2002, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1965, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
     right: 40px;
     width: 40px;
   }
-  /* line 2005, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 1968, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
     right: 30px;
   }
-  /* line 2014, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-    padding: 0; }
-    .slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
-      font-size: 20px;
-      margin-bottom: 0px;
-      margin-top: 0px; }
-    .slider .slider__owl .slider-row .window-slider .window-slider__text .identityTxt {
-      font-size: 16px;
-      line-height: 30px; }
-    .slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt {
-      font-size: 18px;
-      line-height: 30px; }
-    .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
-      right: 40px;
-      width: 40px; }
-      .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
-        right: 30px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1977, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__all-work a {
-    font-size: 14px; }
+    font-size: 14px;
+  }
+  /* END: Slider responsive */
+}
 
-  /* END: Slider responsive */ }
 @media only screen and (max-width: 600px) {
-<<<<<<< HEAD
-  /* line 2027, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 1990, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
-    width: 75%; } }
+    width: 75%;
+  }
+}
+
 @media only screen and (max-width: 570px) {
   /* START welcome */
-<<<<<<< HEAD
-  /* line 2041, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 2004, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__to .txt2 {
     font-size: 25px;
-    letter-spacing: 10px; }
-
+    letter-spacing: 10px;
+  }
   /* END: welcome */
   /* START Footer responsive */
-<<<<<<< HEAD
-  /* line 2053, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2016, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   footer .footerWrap .footerWrap__footer-menu {
     -webkit-justify-content: center;
     -moz-justify-content: center;
@@ -3019,54 +2136,43 @@ header .header .logo {
     justify-content: center;
     -ms-flex-pack: center;
   }
-  /* line 2055, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2018, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   footer .footerWrap .footerWrap__footer-menu li {
     padding-right: 15px;
   }
   /* END: Footer responsive */
 }
-=======
-  footer .footerWrap .footerWrap__footer-menu {
-    justify-content: center; }
-    footer .footerWrap .footerWrap__footer-menu li {
-      padding-right: 15px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
 
-  /* END: Footer responsive */ }
 @media only screen and (max-width: 640px) {
-<<<<<<< HEAD
-  /* line 2067, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 2030, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .menu-content .menu {
     -webkit-justify-content: center;
     -moz-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
-<<<<<<< HEAD
     -ms-flex-pack: center;
     text-align: center;
   }
 }
 
 @media only screen and (max-width: 510px) {
-  /* line 2076, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2039, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .margin-top-100 {
     margin-top: 70px;
   }
-  /* line 2080, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2043, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .services-new .services__title {
     width: 85%;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 2084, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2047, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .services-new .services__title h1 {
     font-size: 25px;
     padding: 20px 40px 20px 40px;
     margin-bottom: 50px;
   }
-  /* line 2088, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2051, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .services-new .services__title h1 .patternContentText {
     width: 100%;
   }
@@ -3074,178 +2180,106 @@ header .header .logo {
 
 @media only screen and (max-width: 470px) {
   /* START Slider responsive */
-  /* line 2105, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-    text-align: center; } }
-@media only screen and (max-width: 510px) {
-  .margin-top-100 {
-    margin-top: 70px; }
-
-  .services-new .services__title {
-    width: 85%;
-    margin: 0 auto;
-    text-align: center; }
-    .services-new .services__title h1 {
-      font-size: 25px;
-      padding: 20px 40px 20px 40px;
-      margin-bottom: 50px; }
-      .services-new .services__title h1 .patternContentText {
-        width: 100%; } }
-@media only screen and (max-width: 470px) {
-  /* START Slider responsive */
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 2068, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .brandingTxt {
     font-size: 18px;
     margin-bottom: 0px;
     margin-top: 0px;
     line-height: 35px;
-<<<<<<< HEAD
     letter-spacing: 0.2em;
   }
-  /* line 2112, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2075, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .identityTxt {
     font-size: 15px;
     line-height: 30px;
   }
-  /* line 2116, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
-    letter-spacing: 0.2em; }
-  .slider .slider__owl .slider-row .window-slider .window-slider__text .identityTxt {
-    font-size: 15px;
-    line-height: 30px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 2079, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .clientTxt {
     font-size: 17px;
-    line-height: 30px; }
-
+    line-height: 30px;
+  }
   /* END: Slider responsive */
-<<<<<<< HEAD
-  /* line 2130, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
-=======
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
+  /* line 2093, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .service .service__description .description__box {
-    width: 95%; } }
+    width: 95%;
+  }
+}
+
 @media only screen and (max-width: 425px) {
-<<<<<<< HEAD
-  /* line 2140, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2103, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome {
     text-align: center;
   }
-  /* line 2144, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2107, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__hello .txt1 {
     font-size: 110px;
     line-height: 60px;
     margin-bottom: 10px;
   }
-  /* line 2151, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2114, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__to .txt2 {
     text-align: center;
   }
-  /* line 2156, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2119, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
     width: 100%;
     padding: 0px 0px 0px 15px;
     margin-left: 0;
   }
-  /* line 2160, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2123, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .txt3 {
     font-size: 25px;
   }
-  /* line 2163, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2126, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
     left: 0px;
   }
-  /* line 2172, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2135, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content {
     padding: 25px;
   }
-  /* line 2176, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2139, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .service-content .reputation .reputation__title h1 {
     font-size: 25px;
     line-height: 40px;
     margin-bottom: 30px;
   }
 }
-=======
-  .welcome {
-    text-align: center; }
-    .welcome .welcome__text .welcome__text__hello .txt1 {
-      font-size: 110px;
-      line-height: 60px;
-      margin-bottom: 10px; }
-    .welcome .welcome__text .welcome__text__to .txt2 {
-      text-align: center; }
-    .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
-      width: 100%;
-      padding: 0px 0px 0px 15px;
-      margin-left: 0; }
-      .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .txt3 {
-        font-size: 25px; }
-      .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
-        left: 0px; }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
 
-  .service-content {
-    padding: 25px; }
-    .service-content .reputation .reputation__title h1 {
-      font-size: 25px;
-      line-height: 40px;
-      margin-bottom: 30px; } }
 @media only screen and (max-width: 320px) {
-<<<<<<< HEAD
-  /* line 2196, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2159, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
     width: 100%;
     margin-left: 0;
   }
-  /* line 2199, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2162, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .txt3 {
     font-size: 25px;
   }
-  /* line 2202, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2165, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
     left: 0px;
   }
-  /* line 2204, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2167, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
     letter-spacing: 6px;
     font-size: 10px;
   }
-  /* line 2218, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2181, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider {
     bottom: 15px;
     left: 0;
   }
-  /* line 2222, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2185, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
     right: 10px;
   }
-  /* line 2224, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
+  /* line 2187, C:/xampp/htdocs/mediavuk/sass/style-new.scss */
   .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
     right: 5px;
   }
 }
 
-=======
-  .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 {
-    width: 100%;
-    margin-left: 0; }
-    .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .txt3 {
-      font-size: 25px; }
-    .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants {
-      left: 0px; }
-      .welcome .welcome__text .welcome__text__mediavuk .welcome__text__mediavuk-t3 .welcome__text__colsuntants p {
-        letter-spacing: 6px;
-        font-size: 10px; }
-
-  .slider .slider__owl .slider-row .window-slider {
-    bottom: 15px;
-    left: 0; }
-    .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider {
-      right: 10px; }
-      .slider .slider__owl .slider-row .window-slider .window-slider__text .arrow-slider:hover {
-        right: 5px; } }
->>>>>>> 1dae9ec5554861b12a197a03c095f2fdceacedd3
 /****************** END: RESPONSIVE ****************/
 
-/*# sourceMappingURL=style-new.css.map */
+/*# sourceMappingURL=../css/style-new.map */
