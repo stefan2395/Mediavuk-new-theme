@@ -12,7 +12,7 @@
 
         <div class="menu-content">
 
-        	<div class="menu width-1600">
+        	<div class="menu-container width-1600">
 
         		<ul class="menu__links">
         			<li>
@@ -97,28 +97,9 @@
 
 
         		<ul class="menu__contact">
-        			<li class="accordion menu__title">Contact</li>
+                    <li class="accordion menu__title menu__title__contact">Contact</li>
 
                     <div class="panel">
-            			<li>
-                            
-                            <p>
-                                <span class="menu__icon__mobile">
-                                    <img src="img/menu-icons/iconmonstr-mobile-phone-1.svg" alt="">
-                                </span>
-                                    +381 (0) 11 40 45 985
-                            </p>
-                        </li>
-            			<li>
-                            <p>
-                                <span class="menu__icon__email">
-                                    <img src="img/menu-icons/iconmonstr-email-1.svg" alt="">
-                                </span>
-                                    office@mediavuk.com
-                            </p>
-                        </li>
-                            
-                        <!-- social icons -->
                         <ul class="menu-social">
                             <li>
                                  <p>
@@ -150,6 +131,29 @@
                                 </p>
                             </li>
                         </ul>
+
+
+                        <ul class="menu__contact-text">
+                            <li> 
+                                <p>
+                                    <span class="menu__icon__mobile">
+                                        <!-- <img src="img/menu-icons/iconmonstr-mobile-phone-1.svg" alt=""> -->
+                                        Phone:
+                                    </span>
+                                        +381 (0) 11 40 45 985
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="menu__icon__email">
+                                        <!-- <img src="img/menu-icons/iconmonstr-email-1.svg" alt=""> -->
+                                        Email: 
+                                    </span>
+                                        office@mediavuk.com
+                                </p>
+                            </li>
+                        </ul>
+                        <!-- social icons -->
                     </div>
                     <!-- END social icons -->
         		</ul>
