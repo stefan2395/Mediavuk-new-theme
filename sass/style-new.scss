@@ -309,6 +309,10 @@ auto | flex-start | flex-end | center | baseline | stretch
     margin-top: 50px;
 }
 
+.margin-top-60 {
+    margin-top: 60px;
+}
+
 .margin-top-75 {
     margin-top: 75px;
 }
@@ -321,13 +325,33 @@ auto | flex-start | flex-end | center | baseline | stretch
     margin-top: 100px;
 }
 
+.margin-top-170 {
+    margin-top: 170px;
+}
 
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
 .margin-bottom-65 {
     margin-bottom: 65px;
 }
 
 .margin-bottom-100 {
     margin-bottom: 100px;
+}
+
+.margin-bottom-170 {
+    margin-bottom: 170px;
+}
+
+.margin-bottom-200 {
+    margin-bottom: 200px;
 }
 
 
@@ -454,6 +478,7 @@ header {
 /* END: framework menu */
 
 .menu-content { 
+  z-index: 999;
     .menu-container {
         @include flexbox;
         @include flex-wrap(wrap);
@@ -551,7 +576,7 @@ header {
               .menu__contact-text {
                 width: 24%;
                 margin-left: 30px;
-                p {
+                p, a {
                   color: $gold;
                   font-size: 17px;
                   span {
@@ -1100,6 +1125,7 @@ header {
 }
 /* END: service framework */
 
+
 .service-content {
     .service {
         .service__header {
@@ -1213,7 +1239,7 @@ header {
                     font-family: 'Crimson Text', serif;
                     p, ul, li {
                         font-family: 'Crimson Text', serif;
-                        font-size: 18px;
+                        font-size: 21px;
                         text-decoration: none;
                         color: $serviceTxt;
                         line-height: 30px;
@@ -1228,8 +1254,15 @@ header {
                 }
                 .reputation__img {
                     width: 85%;
+                    overflow: hidden;
                     img {
                         width: 100%;
+                        transition: transform .5s ease;
+                    }
+                    &:hover {
+                      img {
+                        transform: scale(1.2);
+                      }
                     }
                 }
             } 
@@ -1379,6 +1412,8 @@ header {
                 letter-spacing: 0.01em;
                 line-height: 30px;
                 ul {
+                  padding-left: 50px;
+                  padding-top: 20px;
                   li {
                     list-style: inside;
                   }
@@ -2073,6 +2108,7 @@ header {
     .slider {
         .slider__owl {
             .slider-row {
+              padding-bottom: 0;
                 .window-slider {
                     position: initial;
                     width: 100%;
@@ -2278,6 +2314,16 @@ header {
             }
         }
     }
+
+.neutralPage-content {
+  .neutral .neutral__description {
+    .neutral__description__text {
+      ul {
+        padding-left: 15px;
+      }
+    }
+  }
+}
 
 
 }

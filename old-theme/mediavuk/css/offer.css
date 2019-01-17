@@ -1,0 +1,623 @@
+/* 
+Description: Mediavuk Offer stylesheet v2
+Author: Petar Panic
+Author email: pp@mediavuk.com
+Original work on: 08.03.2017.
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+ font-family: 'Crimson Text', serif;
+
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.row strong{
+    font-weight:bold;
+}
+
+.second-col a {
+
+    color:#A99160;
+    text-decoration: underline;
+}
+
+
+/* ADDITIONS BY Strahinja 10/03/17*/
+
+form.post-password-form input{ padding:10px;display: inline-block;vertical-align: middle;}
+form.post-password-form input[type="submit"] {
+
+     background: #a99060;
+     border: none;
+     font-family: 'PT Sans', sans-serif;
+     color: #fff;
+     padding:9px 10px 10px 10px;
+     font-size: 16px;
+     margin-left: 4px;
+     transition: background-color 0.4s ease;
+}
+
+form.post-password-form input[type="submit"]:hover {
+
+    background: #404041;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+/* END of Additions*/
+.task-description ul {padding-bottom: 15px}
+
+
+.centered {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.centered .frame{
+    padding: 40px;
+}
+.row.logo.center{
+    justify-content: center;
+}
+.row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.row.logo {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 18px;
+}
+.row.logo img {
+    display: block;
+    width: 168px;
+    height:150px;
+    margin-right: 5px;
+}
+.first-col {
+    width: 25%;
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+}
+.second-col {
+    width: 65%;
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+header .second-col{
+    width: 57%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+}
+.third-col {
+    width: 10.77%;
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+}
+header .third-col{
+    width: 20%;
+    display:inline-block;
+    color: #424142;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+.offer-number{
+    display:inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 9px;
+    color: #424142;
+}
+.offer-date {
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 12px;
+    color: #424142;
+}
+.company-name {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+.company-address {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 4px;
+}
+.company-bank-account {
+    font-family: 'Crimson Text', serif;
+    margin-top: 3px;
+    line-height: 20px;
+}
+.account-number{
+    display:inline-block;
+}
+.client-name{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+    color: #424142;
+}
+.proposal-info:before,
+.entry-text.client-name:before{
+    content: '';
+    display: block;
+    width: 53px;
+    border-top: 5px solid #A99160;
+    margin-bottom: 10px;
+}
+.entry-text .second-col {
+    font-family: 'PT Sans', sans-serif;
+}
+.client-address {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    margin-top: 18px;
+}
+.address-headline {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #A99160;
+    font-size: 19px;
+    letter-spacing: 5px;
+}
+.client-address .address {
+    line-height: 20px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #424142;
+}
+.content {
+    margin-top: 82px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+    color: #59595B;
+}
+.content p{
+    margin-bottom:18px;
+}
+.content .task-description p:last-child {
+    margin-bottom: 0px;
+}
+
+.task-description a {text-decoration: none;font-weight: bold;color: #A99160}
+.content p + ul{
+    margin-top:-10px;
+}
+.content ul li {list-style-type: disc;margin-left: 18px;}
+.content strong {
+    font-family: 'PT Sans', sans-serif;
+}
+.underline {
+    text-decoration: underline;
+}
+.important-offer {
+    color: #A99160;
+    font-weight: bold;
+}
+.offer-table {
+    margin-top: 52px;
+}
+.offer-table .row {
+    border-top: 4px solid #A99160;
+}
+.offer-table .row:last-child{
+    border-bottom: 4px solid #A99160;
+}
+.offer-table .first-col {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+    padding: 8px;
+}
+.offer-table .second-col {
+    border-left: 2px solid #A99160;
+}
+.offer-table .row:first-child .second-col{
+    padding: 17px;
+    border-right: 2px solid #A99160;
+}
+.offer-table .row.final .second-col{
+    padding: 17px;
+    border-right: 2px solid #A99160;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #424142;
+}
+.project-name {
+    display: inline-block;
+    color: #424142;
+}
+.project-name:before {
+    content: "|";
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.offer-table .first-col strong {
+    margin-left: 25px;
+    color: #A99160;
+    line-height: 26px;
+    letter-spacing: 3px;
+}
+.offer-table .third-col {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+}
+.offer-table .price-title{
+    color:#424142;
+}
+.inner-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #A99160;
+}
+.row .inner-row:last-child{
+    border-bottom: none;
+}
+.inner-first-col{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 85%;
+            flex: 0 1 85%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-right: 1px solid #A99160;
+}
+.second-col .sub-title{
+    display: none;
+}
+.inner-second-col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 10%;
+    flex: 1 1 10%;
+    color: #A99160;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+}
+.inner-second-col strong{
+    font-size: 15px;
+}
+.title{
+    background: #EBE6DA;
+    border-bottom: 1px solid #A99160;
+    /* padding: 2px 0px; */
+}
+.additional .title {
+    background: white;
+    padding: 7px 22px;
+}
+.task-number {
+    width: 29px;
+    height: 29px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 19px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    background: white;
+    border-right: 1px solid #A99160;
+    padding-top:4px;
+}
+.task-title {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    /* padding: 0px; */
+    align-items: center;
+    font-weight: 600;
+    font-size: 17px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 94%;
+    flex: 1 1 94%;
+    padding-left: 10px;
+    color: #424142;
+}
+.task-description {
+    margin-left: 27px;
+    margin-top: 14px;
+    margin-right: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    padding-bottom: 16px;
+    /* letter-spacing: 0px; */
+}
+.total-price {
+    background: #A99160;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    width: 100%;
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+footer {
+    border: 4px solid #A99160;
+    padding: 10px 100px;
+    text-align: left;
+    color: #59595B;
+    font-size: 14px;
+    /* text-align: justify; */
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    font-family: 'Crimson Text', serif;
+}
+footer label {
+    font-weight: bold;
+    color: #A99160;
+}
+
+footer label:before {
+    content: "|";
+    margin: 0px 8px;
+}
+footer label:first-child:before{
+    content: "";
+    margin:0px;
+}
+.responsive-price{
+    display: none;
+}
+h1 {
+    font-size: 23px;
+    color: #A99160;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    padding-bottom: 15px;
+    line-height: 1.2;
+}
+.horizontal-dots{
+    width: 97%;
+    height: 2px;
+    display:block;
+    background:url('../images/dot-offer.png');
+    margin-top: 9px;
+}
+.vertical-dots{
+    width:2px;
+    background:url('../images/dot-vertical-offer.png');
+}
+
+@media screen and (max-width: 905px){
+    .offer-table .first-col{
+        display:none;
+    }
+    .offer-table .third-col{
+        width:14.8%;
+    }
+    header .first-col {
+    width: 100%;
+    }
+    .entry-text .first-col {
+        display: none;
+    }
+    .row.logo{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    header .third-col{
+        display: none;
+    }
+    .second-col .sub-title{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 7px 0px;
+        color: white;
+        background: #A99160;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        border-bottom: 1px solid #A99160;
+        letter-spacing: 3px;
+    }
+    header .second-col{
+        display: none;
+    }
+    footer{
+        padding:10px 40px;
+    }
+}
+@media screen and (max-width: 685px){
+    .inner-second-col{
+        margin-left: 28px;
+        margin-top:-10px;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        margin-right: 17px;
+        font-size: 20px;
+    }
+    .inner-row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        border-right: 2px solid #A99160
+    }
+    .inner-first-col{
+        border-right: none;
+    }
+    .offer-table .third-col{
+        display: none;
+    }
+    .offer-table .row.final .second-col{
+        /* -webkit-box-orient: horizontal; */
+        /* -webkit-box-direction: normal; */
+        -ms-flex-direction: row;
+        /* flex-direction: row; */
+        background: #424142;
+        color: white;
+        padding: 11px 27px;
+        position: relative;
+    }
+    .responsive-price{
+        display: inline-block;
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        /* color: #A99160; */
+        position: absolute;
+        right: 19px;
+        bottom: 12px;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .offer-table .row:last-child{
+        border:none;
+    }
+    .offer-table .row.final .second-col{
+        border:none;
+    }
+    .row.additional .inner-row:last-child .task-description{
+        padding-bottom:28px;
+    }
+}
+@media screen and (max-width: 600px){
+    .task-title{
+        padding: 7px 27px;
+    }
+    .task-number{
+        display: none;
+    }
+    .additional .title{
+        padding:7px 0px;
+    }
+}
+
+@media screen and (max-width: 578px){
+    .second-col .sub-title{
+        padding: 7px 27px;
+    }
+    footer{
+        border:none;
+    }
+    footer label{
+        display: block;
+        margin-top:10px;
+    }
+    footer label:before{
+        content: "";
+        margin:0px;
+    }
+}

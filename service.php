@@ -72,7 +72,7 @@
 
 				<div class="reputation margin-bottom-120 service-flex-start">
 
-					<div class="reputation__img margin-bottom-65">
+					<div class="reputation__img margin-bottom-65"  data-aos="fade-up">
 							<img src="img/service-img/Services_img-1.jpg" alt="">
 					</div> 
 
@@ -105,7 +105,7 @@
 
 				<div class="reputation margin-bottom-120 service-flex-end">
 					
-					<div class="reputation__img margin-bottom-65">
+					<div class="reputation__img margin-bottom-65"  data-aos="fade-up">
 							<img src="img/3.jpg" alt="">
 					</div>
 
@@ -132,7 +132,7 @@
 
 				<div class="reputation margin-bottom-120 service-flex-start">
 
-					<div class="reputation__img margin-bottom-65">
+					<div class="reputation__img margin-bottom-65"  data-aos="fade-up">
 							<img src="img/1.jpg" alt="">
 					</div>
 
